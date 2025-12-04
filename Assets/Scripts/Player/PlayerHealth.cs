@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     [SerializeField] private ParticleSystem damageParticle;
     private ParticleSystem damageParticleInstance;
     public bool HasTakenDamage { get; set ; }
+    private bool isDead = false;
 
     private float currentHealth;
     private Animator anim;
@@ -27,12 +28,15 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 
         if (currentHealth <= 0)
         {
-            Die();
+            if (!isDead)
+                Die();
         }
     }
     public void Die()
     {
+        GetComponent<Player>().enabled = false;
         anim.SetTrigger("Dead");
+        isDead = true;
     }
 
     private void spawnParticle(Vector2 attackDiresction)

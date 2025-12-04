@@ -6,6 +6,8 @@ public class EnemyChaseState : EnemyState
 {
     private Transform _playerTransform;
     private float _moveSpeed = 1.7f;
+    private float _chaseDuration = 30f;
+    private float _chaseTimer = 0f;
 
     public EnemyChaseState(EmemyHealth enemy, EnemyStateMachine stateMachine) : base(enemy, stateMachine)
     {
@@ -35,6 +37,14 @@ public class EnemyChaseState : EnemyState
         if (enemy.IsWithinStrikeDistance)
         {
             enemy.stateMachine.ChangeState(enemy.attackState);
+        }else
+        {
+            _chaseTimer += Time.deltaTime;
+            if (_chaseTimer >= _chaseDuration)
+            {
+                _chaseTimer = 0f;
+                stateMachine.ChangeState(enemy.idleState);
+            }
         }
     }
 

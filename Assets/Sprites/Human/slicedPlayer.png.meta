@@ -1,0 +1,413 @@
+fileFormatVersion: 2
+guid: a4980a24c2874d34d96f189ee4db22f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4476205712222520936
+    second: slicedPlayer_0
+  - first:
+      213: 288025781108407925
+    second: slicedPlayer_1
+  - first:
+      213: 7716496694734405378
+    second: slicedPlayer_2
+  - first:
+      213: -4008641727816216177
+    second: slicedPlayer_3
+  - first:
+      213: 5827247566852012737
+    second: slicedPlayer_4
+  - first:
+      213: 3796589630440516184
+    second: slicedPlayer_5
+  - first:
+      213: -1458487999174049960
+    second: slicedPlayer_6
+  - first:
+      213: 6857602753600030262
+    second: slicedPlayer_7
+  - first:
+      213: 5970356331868552
+    second: slicedPlayer_8
+  - first:
+      213: 3169859924900964049
+    second: slicedPlayer_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slicedPlayer_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 62
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.4526626, y: 0.48579916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866099a116dae1e30800000000000000
+      internalID: 4476205712222520936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedPlayer_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 42
+        width: 12
+        height: 13
+      alignment: 9
+      pivot: {x: 0.7627244, y: 0.7490695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57efe110ce54ff300800000000000000
+      internalID: 288025781108407925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedPlayer_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 42
+        width: 17
+        height: 19
+      alignment: 9
+      pivot: {x: 0.4749389, y: 0.36546126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fbe103cd0861b60800000000000000
+      internalID: 7716496694734405378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedPlayer_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 36
+        width: 11
+        height: 12
+      alignment: 9
+      pivot: {x: 0.32183802, y: 0.6988185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81d4b556917e58c0800000000000000
+      internalID: -4008641727816216177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedPlayer_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 26
+        width: 10
+        height: 15
+      alignment: 9
+      pivot: {x: 0.7726655, y: 0.7953875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca3978b9ca8ed050800000000000000
+      internalID: 5827247566852012737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedPlayer_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 16
+        width: 11
+        height: 12
+      alignment: 9
+      pivot: {x: 0.639431, y: 0.6886748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85aa658572230b430800000000000000
+      internalID: 3796589630440516184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedPlayer_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 28
+        width: 19
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.6114258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f7f0464e862cbe0800000000000000
+      internalID: -1458487999174049960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedPlayer_7
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 25
+        width: 9
+        height: 11
+      alignment: 9
+      pivot: {x: 0.20650609, y: 0.84083176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636021b0f591b2f50800000000000000
+      internalID: 6857602753600030262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedPlayer_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2
+        width: 8
+        height: 13
+      alignment: 9
+      pivot: {x: 0.65976477, y: 0.8469181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881f758e106351000800000000000000
+      internalID: 5970356331868552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedPlayer_9
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 4
+        width: 11
+        height: 12
+      alignment: 9
+      pivot: {x: 0.45352313, y: 0.8905361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6e77b9eca9dfb20800000000000000
+      internalID: 3169859924900964049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedPlayer_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 17
+        width: 11
+        height: 10
+      alignment: 9
+      pivot: {x: 0.3295843, y: 0.7641447}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbd5ef72205b6d4d85dd53c6c419fba
+      internalID: -576897887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 50e59f0187485f14aa441c8404081d6a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slicedPlayer_0: 4476205712222520936
+      slicedPlayer_1: 288025781108407925
+      slicedPlayer_10: -576897887
+      slicedPlayer_2: 7716496694734405378
+      slicedPlayer_3: -4008641727816216177
+      slicedPlayer_4: 5827247566852012737
+      slicedPlayer_5: 3796589630440516184
+      slicedPlayer_6: -1458487999174049960
+      slicedPlayer_7: 6857602753600030262
+      slicedPlayer_8: 5970356331868552
+      slicedPlayer_9: 3169859924900964049
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

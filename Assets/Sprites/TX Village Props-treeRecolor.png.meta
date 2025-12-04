@@ -1,0 +1,5136 @@
+fileFormatVersion: 2
+guid: 9f84823a0af1db74fad1372f984e0ca8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7327282187158896685
+    second: TX Village Props-treeRecolor_0
+  - first:
+      213: -3604573662933935318
+    second: TX Village Props-treeRecolor_1
+  - first:
+      213: -2919952801635695158
+    second: TX Village Props-treeRecolor_2
+  - first:
+      213: 3070904501958107162
+    second: TX Village Props-treeRecolor_3
+  - first:
+      213: 7028047356794601193
+    second: TX Village Props-treeRecolor_4
+  - first:
+      213: -5742515543985531790
+    second: TX Village Props-treeRecolor_5
+  - first:
+      213: -3492732595101944042
+    second: TX Village Props-treeRecolor_6
+  - first:
+      213: -6743240418010489225
+    second: TX Village Props-treeRecolor_7
+  - first:
+      213: 4132871657002000453
+    second: TX Village Props-treeRecolor_8
+  - first:
+      213: -499856674316204077
+    second: TX Village Props-treeRecolor_9
+  - first:
+      213: -8474807654202800561
+    second: TX Village Props-treeRecolor_10
+  - first:
+      213: 5150221052463866818
+    second: TX Village Props-treeRecolor_11
+  - first:
+      213: 4115265241707746630
+    second: TX Village Props-treeRecolor_12
+  - first:
+      213: -5871075627819827600
+    second: TX Village Props-treeRecolor_13
+  - first:
+      213: -3432251771939685705
+    second: TX Village Props-treeRecolor_14
+  - first:
+      213: -4272046135479271690
+    second: TX Village Props-treeRecolor_15
+  - first:
+      213: -7209231356717495431
+    second: TX Village Props-treeRecolor_16
+  - first:
+      213: 2375510945640451792
+    second: TX Village Props-treeRecolor_17
+  - first:
+      213: 2306744156632251852
+    second: TX Village Props-treeRecolor_18
+  - first:
+      213: 5864798451168356284
+    second: TX Village Props-treeRecolor_19
+  - first:
+      213: 430334750799015204
+    second: TX Village Props-treeRecolor_20
+  - first:
+      213: -4605883990928792890
+    second: TX Village Props-treeRecolor_21
+  - first:
+      213: 4404567564903096139
+    second: TX Village Props-treeRecolor_22
+  - first:
+      213: 2032868494001297575
+    second: TX Village Props-treeRecolor_23
+  - first:
+      213: -8454957581804906596
+    second: TX Village Props-treeRecolor_24
+  - first:
+      213: 1183510709699855383
+    second: TX Village Props-treeRecolor_25
+  - first:
+      213: -7486329338267495011
+    second: TX Village Props-treeRecolor_26
+  - first:
+      213: 1858511817084842816
+    second: TX Village Props-treeRecolor_27
+  - first:
+      213: 6457675277771002762
+    second: TX Village Props-treeRecolor_28
+  - first:
+      213: -2001349518110471236
+    second: TX Village Props-treeRecolor_29
+  - first:
+      213: -6958680185526191242
+    second: TX Village Props-treeRecolor_30
+  - first:
+      213: 7536791672666785486
+    second: TX Village Props-treeRecolor_31
+  - first:
+      213: -4287094183745812834
+    second: TX Village Props-treeRecolor_32
+  - first:
+      213: -2635241519111328165
+    second: TX Village Props-treeRecolor_33
+  - first:
+      213: 2675426398975778536
+    second: TX Village Props-treeRecolor_34
+  - first:
+      213: -8249355853473523579
+    second: TX Village Props-treeRecolor_35
+  - first:
+      213: -5113483582332595261
+    second: TX Village Props-treeRecolor_36
+  - first:
+      213: -4326846972811895434
+    second: TX Village Props-treeRecolor_37
+  - first:
+      213: 4123188177018008413
+    second: TX Village Props-treeRecolor_38
+  - first:
+      213: -2899066537968874619
+    second: TX Village Props-treeRecolor_39
+  - first:
+      213: 8270691110817669694
+    second: TX Village Props-treeRecolor_40
+  - first:
+      213: 5313940202167197767
+    second: TX Village Props-treeRecolor_41
+  - first:
+      213: -9163937011581974403
+    second: TX Village Props-treeRecolor_42
+  - first:
+      213: 7897254733886951457
+    second: TX Village Props-treeRecolor_43
+  - first:
+      213: 6155915292686832521
+    second: TX Village Props-treeRecolor_44
+  - first:
+      213: 4228679957866232067
+    second: TX Village Props-treeRecolor_45
+  - first:
+      213: 5007692386563788889
+    second: TX Village Props-treeRecolor_46
+  - first:
+      213: -2052177363320333238
+    second: TX Village Props-treeRecolor_47
+  - first:
+      213: 1292012920290112120
+    second: TX Village Props-treeRecolor_48
+  - first:
+      213: 5497519193596063165
+    second: TX Village Props-treeRecolor_49
+  - first:
+      213: 3466158982631884528
+    second: TX Village Props-treeRecolor_50
+  - first:
+      213: 889034242782393007
+    second: TX Village Props-treeRecolor_51
+  - first:
+      213: -8585503276894135074
+    second: TX Village Props-treeRecolor_52
+  - first:
+      213: 8409167878309132633
+    second: TX Village Props-treeRecolor_53
+  - first:
+      213: -5570795232344712785
+    second: TX Village Props-treeRecolor_54
+  - first:
+      213: -4460022782134766947
+    second: TX Village Props-treeRecolor_55
+  - first:
+      213: 2845016077416501253
+    second: TX Village Props-treeRecolor_56
+  - first:
+      213: -7263110594429141308
+    second: TX Village Props-treeRecolor_57
+  - first:
+      213: -1199215543703755606
+    second: TX Village Props-treeRecolor_58
+  - first:
+      213: 6050833454405085530
+    second: TX Village Props-treeRecolor_59
+  - first:
+      213: -2356432657962890417
+    second: TX Village Props-treeRecolor_60
+  - first:
+      213: -4702513637004448424
+    second: TX Village Props-treeRecolor_61
+  - first:
+      213: 8752614786378638329
+    second: TX Village Props-treeRecolor_62
+  - first:
+      213: 3076365752355823952
+    second: TX Village Props-treeRecolor_63
+  - first:
+      213: 3500583123357477429
+    second: TX Village Props-treeRecolor_64
+  - first:
+      213: -2950719205393179408
+    second: TX Village Props-treeRecolor_65
+  - first:
+      213: 416783898057459438
+    second: TX Village Props-treeRecolor_66
+  - first:
+      213: 4922903458964989704
+    second: TX Village Props-treeRecolor_67
+  - first:
+      213: -2106392485702110569
+    second: TX Village Props-treeRecolor_68
+  - first:
+      213: 7162730814061174429
+    second: TX Village Props-treeRecolor_69
+  - first:
+      213: -1755717679614867672
+    second: TX Village Props-treeRecolor_70
+  - first:
+      213: 2104691336597579458
+    second: TX Village Props-treeRecolor_71
+  - first:
+      213: -6058995346022827796
+    second: TX Village Props-treeRecolor_72
+  - first:
+      213: 2666429654158465179
+    second: TX Village Props-treeRecolor_73
+  - first:
+      213: 5245408904270761806
+    second: TX Village Props-treeRecolor_74
+  - first:
+      213: -2237163431359431353
+    second: TX Village Props-treeRecolor_75
+  - first:
+      213: 8076274706712908858
+    second: TX Village Props-treeRecolor_76
+  - first:
+      213: -2671637503813276568
+    second: TX Village Props-treeRecolor_77
+  - first:
+      213: -2387548893671150896
+    second: TX Village Props-treeRecolor_78
+  - first:
+      213: 6558680780187298901
+    second: TX Village Props-treeRecolor_79
+  - first:
+      213: 5908372653959517223
+    second: TX Village Props-treeRecolor_80
+  - first:
+      213: 8258600162573287809
+    second: TX Village Props-treeRecolor_81
+  - first:
+      213: 5291121556813560153
+    second: TX Village Props-treeRecolor_82
+  - first:
+      213: -5831065162643090871
+    second: TX Village Props-treeRecolor_83
+  - first:
+      213: 3920481080334063857
+    second: TX Village Props-treeRecolor_84
+  - first:
+      213: 529884454535125010
+    second: TX Village Props-treeRecolor_85
+  - first:
+      213: -2654329019097656931
+    second: TX Village Props-treeRecolor_86
+  - first:
+      213: 6468313819554774831
+    second: TX Village Props-treeRecolor_87
+  - first:
+      213: 7099604817247433601
+    second: TX Village Props-treeRecolor_88
+  - first:
+      213: 4740025704726109643
+    second: TX Village Props-treeRecolor_89
+  - first:
+      213: -8257144963370400984
+    second: TX Village Props-treeRecolor_90
+  - first:
+      213: 8942863466691123042
+    second: TX Village Props-treeRecolor_91
+  - first:
+      213: -950018241427726352
+    second: TX Village Props-treeRecolor_92
+  - first:
+      213: 3908698434835160647
+    second: TX Village Props-treeRecolor_93
+  - first:
+      213: -3739427945938382351
+    second: TX Village Props-treeRecolor_94
+  - first:
+      213: -3738905005020173062
+    second: TX Village Props-treeRecolor_95
+  - first:
+      213: -8293928272433542056
+    second: TX Village Props-treeRecolor_96
+  - first:
+      213: -7919907525385849665
+    second: TX Village Props-treeRecolor_97
+  - first:
+      213: 1866037149868442435
+    second: TX Village Props-treeRecolor_98
+  - first:
+      213: -5195080543272450538
+    second: TX Village Props-treeRecolor_99
+  - first:
+      213: 2297334442757099728
+    second: TX Village Props-treeRecolor_100
+  - first:
+      213: -5729100655675142741
+    second: TX Village Props-treeRecolor_101
+  - first:
+      213: 1534171806195099576
+    second: TX Village Props-treeRecolor_102
+  - first:
+      213: 3616239095702670746
+    second: TX Village Props-treeRecolor_103
+  - first:
+      213: -6260523171391766141
+    second: TX Village Props-treeRecolor_104
+  - first:
+      213: 8555075450034261765
+    second: TX Village Props-treeRecolor_105
+  - first:
+      213: -2088134242567281260
+    second: TX Village Props-treeRecolor_106
+  - first:
+      213: -1216804199908512083
+    second: TX Village Props-treeRecolor_107
+  - first:
+      213: 2975655512166040356
+    second: TX Village Props-treeRecolor_108
+  - first:
+      213: -4657180032852266652
+    second: TX Village Props-treeRecolor_109
+  - first:
+      213: 7290152804703113286
+    second: TX Village Props-treeRecolor_110
+  - first:
+      213: -8619071990831895220
+    second: TX Village Props-treeRecolor_111
+  - first:
+      213: 8272720876664481197
+    second: TX Village Props-treeRecolor_112
+  - first:
+      213: -7506337589401017956
+    second: TX Village Props-treeRecolor_113
+  - first:
+      213: -2333136135755708902
+    second: TX Village Props-treeRecolor_114
+  - first:
+      213: -4867920316192393534
+    second: TX Village Props-treeRecolor_115
+  - first:
+      213: -4849549979066905284
+    second: TX Village Props-treeRecolor_116
+  - first:
+      213: -6410417017403158268
+    second: TX Village Props-treeRecolor_117
+  - first:
+      213: 7498683641431995066
+    second: TX Village Props-treeRecolor_118
+  - first:
+      213: 4769429062961346972
+    second: TX Village Props-treeRecolor_119
+  - first:
+      213: 1108632451371378066
+    second: TX Village Props-treeRecolor_120
+  - first:
+      213: -1515708899317607385
+    second: TX Village Props-treeRecolor_121
+  - first:
+      213: 8781732892807999184
+    second: TX Village Props-treeRecolor_122
+  - first:
+      213: -439362267522363775
+    second: TX Village Props-treeRecolor_123
+  - first:
+      213: -2076525922389034543
+    second: TX Village Props-treeRecolor_124
+  - first:
+      213: -7123474268502088330
+    second: TX Village Props-treeRecolor_125
+  - first:
+      213: -5097680272953790246
+    second: TX Village Props-treeRecolor_126
+  - first:
+      213: 2009891736453470747
+    second: TX Village Props-treeRecolor_127
+  - first:
+      213: 4258983776564374579
+    second: TX Village Props-treeRecolor_128
+  - first:
+      213: -9028894867170504615
+    second: TX Village Props-treeRecolor_129
+  - first:
+      213: 4490387669096021049
+    second: TX Village Props-treeRecolor_130
+  - first:
+      213: -1078552806019394672
+    second: TX Village Props-treeRecolor_131
+  - first:
+      213: 4580170413046531695
+    second: TX Village Props-treeRecolor_132
+  - first:
+      213: 4291501293506907184
+    second: TX Village Props-treeRecolor_133
+  - first:
+      213: 5208449576993855900
+    second: TX Village Props-treeRecolor_134
+  - first:
+      213: -1985621288035541774
+    second: TX Village Props-treeRecolor_135
+  - first:
+      213: -1520285768638220193
+    second: TX Village Props-treeRecolor_136
+  - first:
+      213: 4368185720436082045
+    second: TX Village Props-treeRecolor_137
+  - first:
+      213: -5211136402091771134
+    second: TX Village Props-treeRecolor_138
+  - first:
+      213: -5179104808425816078
+    second: TX Village Props-treeRecolor_139
+  - first:
+      213: 5223589637628151660
+    second: TX Village Props-treeRecolor_140
+  - first:
+      213: -3933999102884197106
+    second: TX Village Props-treeRecolor_141
+  - first:
+      213: 6736519134434805187
+    second: TX Village Props-treeRecolor_142
+  - first:
+      213: 8627650738259749845
+    second: TX Village Props-treeRecolor_143
+  - first:
+      213: 430798522124245090
+    second: TX Village Props-treeRecolor_144
+  - first:
+      213: -4267003366174650594
+    second: TX Village Props-treeRecolor_145
+  - first:
+      213: -3451565633609783248
+    second: TX Village Props-treeRecolor_146
+  - first:
+      213: 5905073115659015795
+    second: TX Village Props-treeRecolor_147
+  - first:
+      213: -5740753008486955686
+    second: TX Village Props-treeRecolor_148
+  - first:
+      213: 944869109974437952
+    second: TX Village Props-treeRecolor_149
+  - first:
+      213: 1936913373734142104
+    second: TX Village Props-treeRecolor_150
+  - first:
+      213: 3583872123608344153
+    second: TX Village Props-treeRecolor_151
+  - first:
+      213: 15020728218223686
+    second: TX Village Props-treeRecolor_152
+  - first:
+      213: -2062477968761279816
+    second: TX Village Props-treeRecolor_153
+  - first:
+      213: 4470359916101659873
+    second: TX Village Props-treeRecolor_154
+  - first:
+      213: -2369413340743299868
+    second: TX Village Props-treeRecolor_155
+  - first:
+      213: -8362974520475587755
+    second: TX Village Props-treeRecolor_156
+  - first:
+      213: -3693541805243091905
+    second: TX Village Props-treeRecolor_157
+  - first:
+      213: -1184951612858274517
+    second: TX Village Props-treeRecolor_158
+  - first:
+      213: 8671491517771752740
+    second: TX Village Props-treeRecolor_159
+  - first:
+      213: 3129517344223061529
+    second: TX Village Props-treeRecolor_160
+  - first:
+      213: -1028068814743023859
+    second: TX Village Props-treeRecolor_161
+  - first:
+      213: 3201307329283528600
+    second: TX Village Props-treeRecolor_162
+  - first:
+      213: -5390472916491981267
+    second: TX Village Props-treeRecolor_163
+  - first:
+      213: 585486109643931823
+    second: TX Village Props-treeRecolor_164
+  - first:
+      213: 7222294384857009909
+    second: TX Village Props-treeRecolor_165
+  - first:
+      213: -1882335888369040229
+    second: TX Village Props-treeRecolor_166
+  - first:
+      213: -7469611784751480317
+    second: TX Village Props-treeRecolor_167
+  - first:
+      213: -9104619631318746454
+    second: TX Village Props-treeRecolor_168
+  - first:
+      213: 1316160869255573440
+    second: TX Village Props-treeRecolor_169
+  - first:
+      213: -6386737999544943266
+    second: TX Village Props-treeRecolor_170
+  - first:
+      213: 8706421420493311315
+    second: TX Village Props-treeRecolor_171
+  - first:
+      213: 8351864956244936063
+    second: TX Village Props-treeRecolor_172
+  - first:
+      213: 5795281928327165125
+    second: TX Village Props-treeRecolor_173
+  - first:
+      213: 3480571695582806161
+    second: TX Village Props-treeRecolor_174
+  - first:
+      213: 901093682270191888
+    second: TX Village Props-treeRecolor_175
+  - first:
+      213: -3557021164394930791
+    second: TX Village Props-treeRecolor_176
+  - first:
+      213: 525849111340997102
+    second: TX Village Props-treeRecolor_177
+  - first:
+      213: -8662120145470605235
+    second: TX Village Props-treeRecolor_178
+  - first:
+      213: 1392947168129302125
+    second: TX Village Props-treeRecolor_179
+  - first:
+      213: 3990172375449537341
+    second: TX Village Props-treeRecolor_180
+  - first:
+      213: 2802427646835167773
+    second: TX Village Props-treeRecolor_181
+  - first:
+      213: -1862480448119912946
+    second: TX Village Props-treeRecolor_182
+  - first:
+      213: 4228199022700225384
+    second: TX Village Props-treeRecolor_183
+  - first:
+      213: 361902506002992229
+    second: TX Village Props-treeRecolor_184
+  - first:
+      213: -7788612218006319991
+    second: TX Village Props-treeRecolor_185
+  - first:
+      213: -2805189595094322023
+    second: TX Village Props-treeRecolor_186
+  - first:
+      213: -154791149216619024
+    second: TX Village Props-treeRecolor_187
+  - first:
+      213: -1944592523768869608
+    second: TX Village Props-treeRecolor_188
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_0
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 987
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2047aed35cbfa560800000000000000
+      internalID: 7327282187158896685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_1
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1036
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b1816f95bf9fdc0800000000000000
+      internalID: -3604573662933935318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_2
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1027
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac50991c56e3a77d0800000000000000
+      internalID: -2919952801635695158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_3
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1027
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a106c5acf5b0e9a20800000000000000
+      internalID: 3070904501958107162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_4
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 987
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee7d56b5d3a88160800000000000000
+      internalID: 7028047356794601193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_5
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 987
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2745593b98c7e40b0800000000000000
+      internalID: -5742515543985531790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_6
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 987
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6173585c532578fc0800000000000000
+      internalID: -3492732595101944042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_7
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 986
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e9d6921923b62a0800000000000000
+      internalID: -6743240418010489225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_8
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 987
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54062e900e8ea5930800000000000000
+      internalID: 4132871657002000453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_9
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 987
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d746c8c0072019f0800000000000000
+      internalID: -499856674316204077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_10
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 987
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f460b77075f636a80800000000000000
+      internalID: -8474807654202800561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_11
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 987
+        width: 83
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3e8da92c2497740800000000000000
+      internalID: 5150221052463866818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_12
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 990
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64590880feb5c1930800000000000000
+      internalID: 4115265241707746630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_13
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 987
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e7852a2dfb58ea0800000000000000
+      internalID: -5871075627819827600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_14
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 987
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba74d1c2313e50d0800000000000000
+      internalID: -3432251771939685705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_15
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 987
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe7dae8ca4a6b4c0800000000000000
+      internalID: -4272046135479271690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_16
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 922
+        width: 18
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b0f37f64aa3fb90800000000000000
+      internalID: -7209231356717495431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_17
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 988
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de83fa7e9287f020800000000000000
+      internalID: 2375510945640451792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_18
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 973
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdf5cbb693330020800000000000000
+      internalID: 2306744156632251852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_19
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 959
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7a6294e13f36150800000000000000
+      internalID: 5864798451168356284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_20
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 923
+        width: 87
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42da1e30d2bd8f500800000000000000
+      internalID: 430334750799015204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_21
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 923
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2e70cc9ec9410c0800000000000000
+      internalID: -4605883990928792890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_22
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 923
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f91472dda202d30800000000000000
+      internalID: 4404567564903096139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_23
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 923
+        width: 11
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8d70cef13363c10800000000000000
+      internalID: 2032868494001297575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_24
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 946
+        width: 42
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97d58920e4f9aa80800000000000000
+      internalID: -8454957581804906596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_25
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 935
+        width: 41
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714c78f48bcac6010800000000000000
+      internalID: 1183510709699855383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_26
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 923
+        width: 11
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d951bf091273b1890800000000000000
+      internalID: -7486329338267495011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_27
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 923
+        width: 70
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043353c96a2cac910800000000000000
+      internalID: 1858511817084842816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_28
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 944
+        width: 63
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83dc5e63754e9950800000000000000
+      internalID: 6457675277771002762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_29
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 923
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb40a58737c934e0800000000000000
+      internalID: -2001349518110471236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_30
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 923
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b792c6d3dcd6f90800000000000000
+      internalID: -6958680185526191242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_31
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 925
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec60d6b3810189860800000000000000
+      internalID: 7536791672666785486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_32
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 937
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96003bcd8e2184c0800000000000000
+      internalID: -4287094183745812834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_33
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 935
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e220ceccdbd6bd0800000000000000
+      internalID: -2635241519111328165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_34
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 925
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee57a58226012520800000000000000
+      internalID: 2675426398975778536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_35
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 859
+        width: 37
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588dbe7ee86648d80800000000000000
+      internalID: -8249355853473523579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_36
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 923
+        width: 43
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3164636c14909b0800000000000000
+      internalID: -5113483582332595261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_37
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 911
+        width: 51
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d92145a93f3f3c0800000000000000
+      internalID: -4326846972811895434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_38
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 923
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53bf392dc1883930800000000000000
+      internalID: 4123188177018008413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_39
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 894
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bc428f75274c7d0800000000000000
+      internalID: -2899066537968874619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_40
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 859
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32a44bceb567c270800000000000000
+      internalID: 8270691110817669694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_41
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 859
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740e7db9578eeb940800000000000000
+      internalID: 5313940202167197767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_42
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 859
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d780a9037d723d080800000000000000
+      internalID: -9163937011581974403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_43
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 795
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1209a1ac65fa89d60800000000000000
+      internalID: 7897254733886951457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_44
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 827
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9835effd7543e6550800000000000000
+      internalID: 6155915292686832521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_45
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 870
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3093e65640a4faa30800000000000000
+      internalID: 4228679957866232067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_46
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 854
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950109591b5ee7540800000000000000
+      internalID: 5007692386563788889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_47
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 867
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c913b9f833583e0800000000000000
+      internalID: -2052177363320333238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_48
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 859
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8727b17d7e62ee110800000000000000
+      internalID: 1292012920290112120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_49
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 871
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd6f28549c1b4c40800000000000000
+      internalID: 5497519193596063165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_50
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 859
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f68dceea354a1030800000000000000
+      internalID: 3466158982631884528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_51
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 870
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2f33afeeb765c00800000000000000
+      internalID: 889034242782393007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_52
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 859
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcd5c2f14a2ad880800000000000000
+      internalID: -8585503276894135074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_53
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 859
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959bd33b1ad53b470800000000000000
+      internalID: 8409167878309132633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_54
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 859
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa957a3604f80b2b0800000000000000
+      internalID: -5570795232344712785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_55
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 859
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9235bce8e0da12c0800000000000000
+      internalID: -4460022782134766947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_56
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 827
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5009fa28c078b7720800000000000000
+      internalID: 2845016077416501253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_57
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 838
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cebcae556f343b90800000000000000
+      internalID: -7263110594429141308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_58
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 827
+        width: 75
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4296411d78b5fe0800000000000000
+      internalID: -1199215543703755606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_59
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 795
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a596dd4d7f0e8f350800000000000000
+      internalID: 6050833454405085530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_60
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 763
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b0ef48bf44c4fd0800000000000000
+      internalID: -2356432657962890417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_61
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 795
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d6bea13c05dbeb0800000000000000
+      internalID: -4702513637004448424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_62
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 795
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f32eed56c8877970800000000000000
+      internalID: 8752614786378638329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_63
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 731
+        width: 48
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051a85c3a5271ba20800000000000000
+      internalID: 3076365752355823952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_64
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 727
+        width: 34
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a2376cdc1949030800000000000000
+      internalID: 3500583123357477429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_65
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 731
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcdd9a2480fc07d0800000000000000
+      internalID: -2950719205393179408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_66
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 731
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee641df3fb6b8c500800000000000000
+      internalID: 416783898057459438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_67
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 731
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807662ffc9aa15440800000000000000
+      internalID: 4922903458964989704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_68
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 731
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7927c24c13794c2e0800000000000000
+      internalID: -2106392485702110569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_69
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 763
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e5cd1c9b1276360800000000000000
+      internalID: 7162730814061174429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_70
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 763
+        width: 63
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827cea4921072a7e0800000000000000
+      internalID: -1755717679614867672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_71
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 731
+        width: 24
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6adb79e9d553d10800000000000000
+      internalID: 2104691336597579458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_72
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 731
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce87090b5df1aeba0800000000000000
+      internalID: -6058995346022827796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_73
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 704
+        width: 98
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98dea2a4af010520800000000000000
+      internalID: 2666429654158465179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_74
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 667
+        width: 105
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fcab86b9f6bc840800000000000000
+      internalID: 5245408904270761806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_75
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 691
+        width: 12
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74db35156bff3f0e0800000000000000
+      internalID: -2237163431359431353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_76
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 699
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34581a4e01b41070800000000000000
+      internalID: 8076274706712908858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_77
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 703
+        width: 92
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c299068df6cead0800000000000000
+      internalID: -2671637503813276568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_78
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 635
+        width: 22
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0daaad45ee8bdded0800000000000000
+      internalID: -2387548893671150896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_79
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 635
+        width: 8
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55cee329b6d150b50800000000000000
+      internalID: 6558680780187298901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_80
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 635
+        width: 8
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72493e7ff91cef150800000000000000
+      internalID: 5908372653959517223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_81
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 667
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1810a2887117c9270800000000000000
+      internalID: 8258600162573287809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_82
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 667
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959b849b507dd6940800000000000000
+      internalID: 5291121556813560153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_83
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 677
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942d08ef025e31fa0800000000000000
+      internalID: -5831065162643090871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_84
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 677
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f893fd55c8586630800000000000000
+      internalID: 3920481080334063857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_85
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 677
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218519c9a178a5700800000000000000
+      internalID: 529884454535125010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_86
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 677
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d915ca302dde92bd0800000000000000
+      internalID: -2654329019097656931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_87
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 676
+        width: 94
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fff46f52114c950800000000000000
+      internalID: 6468313819554774831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_88
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 671
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1837fa947fcd68260800000000000000
+      internalID: 7099604817247433601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_89
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 676
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd9b64c344f7c140800000000000000
+      internalID: 4740025704726109643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_90
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 674
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823c66f676ab86d80800000000000000
+      internalID: -8257144963370400984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_91
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 667
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26751fe01fe6b1c70800000000000000
+      internalID: 8942863466691123042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_92
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 667
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff1f8d517bd0d2f0800000000000000
+      internalID: -950018241427726352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_93
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 667
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e997e648c7e3630800000000000000
+      internalID: 3908698434835160647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_94
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 641
+        width: 106
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f19c237812ea1cc0800000000000000
+      internalID: -3739427945938382351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_95
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 609
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afca7de15bdbc1cc0800000000000000
+      internalID: -3738905005020173062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_96
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 609
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c8709ed2c06ec80800000000000000
+      internalID: -8293928272433542056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_97
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 634
+        width: 100
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4fe6f2116d61290800000000000000
+      internalID: -7919907525385849665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_98
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 635
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343479fa6ee75e910800000000000000
+      internalID: 1866037149868442435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_99
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 635
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616c3b645cd57e7b0800000000000000
+      internalID: -5195080543272450538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_100
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 635
+        width: 87
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d09ecef085c1ef10800000000000000
+      internalID: 2297334442757099728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_101
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 617
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad8608ce452e70b0800000000000000
+      internalID: -5729100655675142741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_102
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 616
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7adac11297a4510800000000000000
+      internalID: 1534171806195099576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_103
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 643
+        width: 84
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9dcc324c467f2230800000000000000
+      internalID: 3616239095702670746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_104
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 637
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381871568572e19a0800000000000000
+      internalID: -6260523171391766141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_105
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 609
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f05f98bcbb9b670800000000000000
+      internalID: 8555075450034261765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_106
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 639
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495a27448f47503e0800000000000000
+      internalID: -2088134242567281260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_107
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 607
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daeef3fe60b0d1fe0800000000000000
+      internalID: -1216804199908512083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_108
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 610
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42307903ce6ab4920800000000000000
+      internalID: 2975655512166040356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_109
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 577
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4617cc65f6f5e5fb0800000000000000
+      internalID: -4657180032852266652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_110
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 474
+        width: 21
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64095aad953db2560800000000000000
+      internalID: 7290152804703113286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_111
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 474
+        width: 21
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d22fca0b7e26880800000000000000
+      internalID: -8619071990831895220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_112
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 571
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da56b8b7ecb9ec270800000000000000
+      internalID: 8272720876664481197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_113
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 571
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9127939bb124d790800000000000000
+      internalID: -7506337589401017956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_114
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 571
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1647a7cb090f9fd0800000000000000
+      internalID: -2333136135755708902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_115
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 440
+        width: 122
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6f176834ca17cb0800000000000000
+      internalID: -4867920316192393534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_116
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 442
+        width: 155
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3dc631fcffe2bcb0800000000000000
+      internalID: -4849549979066905284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_117
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 563
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401d09fbfaf9907a0800000000000000
+      internalID: -6410417017403158268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_118
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 563
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2369aca0da01860800000000000000
+      internalID: 7498683641431995066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_119
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 475
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c993c37967a603240800000000000000
+      internalID: 4769429062961346972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_120
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 507
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295267a3757a26f00800000000000000
+      internalID: 1108632451371378066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_121
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 507
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724964169ce17fae0800000000000000
+      internalID: -1515708899317607385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_122
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 507
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de2f24d98bfed970800000000000000
+      internalID: 8781732892807999184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_123
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 507
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e8e94785217e9f0800000000000000
+      internalID: -439362267522363775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_124
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 539
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d97c1deca2be23e0800000000000000
+      internalID: -2076525922389034543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_125
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 539
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6752c4305e5542d90800000000000000
+      internalID: -7123474268502088330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_126
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 539
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0b218ecc66149b0800000000000000
+      internalID: -5097680272953790246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_127
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 539
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a5d4ca2e194eb10800000000000000
+      internalID: 2009891736453470747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_128
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 539
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c65420e23fa1b30800000000000000
+      internalID: 4258983776564374579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_129
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 539
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95054f794fbe2b280800000000000000
+      internalID: -9028894867170504615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_130
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 539
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c33404bcf015e30800000000000000
+      internalID: 4490387669096021049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_131
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 539
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09396b5ffe53801f0800000000000000
+      internalID: -1078552806019394672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_132
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 507
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66846059b8009f30800000000000000
+      internalID: 4580170413046531695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_133
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 507
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ccb9860b97e8b30800000000000000
+      internalID: 4291501293506907184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_134
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 507
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9990437b41284840800000000000000
+      internalID: 5208449576993855900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_135
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 507
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc103475f7a174e0800000000000000
+      internalID: -1985621288035541774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_136
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 507
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58bc33f52cd6eae0800000000000000
+      internalID: -1520285768638220193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_137
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 507
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75c683e4c9ee9c30800000000000000
+      internalID: 4368185720436082045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_138
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 507
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b76355d035ea7b0800000000000000
+      internalID: -5211136402091771134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_139
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 507
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fff247ed9f1028b0800000000000000
+      internalID: -5179104808425816078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_140
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 507
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67cc33891bed7840800000000000000
+      internalID: 5223589637628151660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_141
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 507
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dc1edb8a0a769c0800000000000000
+      internalID: -3933999102884197106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_142
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 443
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5cb9e067cec7d50800000000000000
+      internalID: 6736519134434805187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_143
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 443
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbeb1c92a29bb770800000000000000
+      internalID: 8627650738259749845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_144
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 443
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2689af039f08af500800000000000000
+      internalID: 430798522124245090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_145
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 454
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f83c7cb0f88c4c0800000000000000
+      internalID: -4267003366174650594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_146
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 442
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0382eb9e7539910d0800000000000000
+      internalID: -3451565633609783248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_147
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 442
+        width: 91
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376909756b803f150800000000000000
+      internalID: 5905073115659015795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_148
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 442
+        width: 97
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5541e9fd8fb450b0800000000000000
+      internalID: -5740753008486955686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_149
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 392
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040144b0379dc1d00800000000000000
+      internalID: 944869109974437952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_150
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 392
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8908022837c41ea10800000000000000
+      internalID: 1936913373734142104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_151
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 378
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956a91055b87cb130800000000000000
+      internalID: 3583872123608344153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_152
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 378
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64407b1d54d553000800000000000000
+      internalID: 15020728218223686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_153
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 378
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba2ae2073b9063e0800000000000000
+      internalID: -2062477968761279816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_154
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 375
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec6261a8a8e90e30800000000000000
+      internalID: 4470359916101659873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_155
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 378
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec8ceace172e1fd0800000000000000
+      internalID: -2369413340743299868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_156
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 378
+        width: 132
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55be8698bfeb0fb80800000000000000
+      internalID: -8362974520475587755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_157
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 379
+        width: 138
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f343e6f1c47edbcc0800000000000000
+      internalID: -3693541805243091905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_158
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 359
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d6e8749c43e8fe0800000000000000
+      internalID: -1184951612858274517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_159
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 359
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42529958793575870800000000000000
+      internalID: 8671491517771752740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_160
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 359
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916e6d491774e6b20800000000000000
+      internalID: 3129517344223061529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_161
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 314
+        width: 106
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fc5942cd09bb1f0800000000000000
+      internalID: -1028068814743023859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_162
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 314
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8979cc20e045d6c20800000000000000
+      internalID: 3201307329283528600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_163
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 314
+        width: 122
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ea12141713135b0800000000000000
+      internalID: -5390472916491981267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_164
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 338
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa08042c380102800800000000000000
+      internalID: 585486109643931823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_165
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 282
+        width: 19
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe43b84a7eba3460800000000000000
+      internalID: 7222294384857009909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_166
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 282
+        width: 9
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b944bc98b7990e5e0800000000000000
+      internalID: -1882335888369040229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_167
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 282
+        width: 9
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30201df48ab965890800000000000000
+      internalID: -7469611784751480317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_168
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 314
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaab2340fa4e5a180800000000000000
+      internalID: -9104619631318746454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_169
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 314
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf6f375651f34210800000000000000
+      internalID: 1316160869255573440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_170
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 314
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d72a7b0afbd57a0800000000000000
+      internalID: -6386737999544943266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_171
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 327
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d0b51472c63d870800000000000000
+      internalID: 8706421420493311315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_172
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 314
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7543097de8c7e370800000000000000
+      internalID: 8351864956244936063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_173
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 316
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c47e27853afc6050800000000000000
+      internalID: 5795281928327165125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_174
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 314
+        width: 70
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1900e7a24897d4030800000000000000
+      internalID: 3480571695582806161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_175
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 237
+        width: 82
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01140190ee3518c00800000000000000
+      internalID: 901093682270191888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_176
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 287
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d91bdc81ce2aec0800000000000000
+      internalID: -3557021164394930791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_177
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 262
+        width: 64
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee95fee0bf03c4700800000000000000
+      internalID: 525849111340997102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_178
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 258
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48387f1f97f9c780800000000000000
+      internalID: -8662120145470605235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_179
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 237
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ebb3bb11eb45310800000000000000
+      internalID: 1392947168129302125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_180
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 237
+        width: 13
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b0f3772a0ff5730800000000000000
+      internalID: 3990172375449537341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_181
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 240
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12185ec81934e620800000000000000
+      internalID: 2802427646835167773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_182
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 274
+        width: 47
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06c3b876e32726e0800000000000000
+      internalID: -1862480448119912946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_183
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 235
+        width: 70
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86363b3fb949daa30800000000000000
+      internalID: 4228199022700225384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_184
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 226
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cc1a9696cb50500800000000000000
+      internalID: 361902506002992229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_185
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 257
+        width: 130
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c477c147a49e390800000000000000
+      internalID: -7788612218006319991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_186
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 263
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994f7c00de6f119d0800000000000000
+      internalID: -2805189595094322023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_187
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 218
+        width: 12
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5a19815421addf0800000000000000
+      internalID: -154791149216619024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_188
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 65
+        width: 94
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d40eb076b6305e0800000000000000
+      internalID: -1944592523768869608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_189
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 395
+        width: 12
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c4ed67887fe5a4dbae25f1df40c99d
+      internalID: 1809404475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_190
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 616
+        width: 3
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2617d168fb27ca48ae0d8c529000e9e
+      internalID: 2142439029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_191
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 251
+        width: 3
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83150fc24a97fd408268e60ffe8b185
+      internalID: -1975555265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Props-treeRecolor_192
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 251
+        width: 3
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605cbff392941784bb708dbc864477ea
+      internalID: 1365428584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: aaef266e2d9806745a861c3c11dbddfc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TX Village Props-treeRecolor_0: 7327282187158896685
+      TX Village Props-treeRecolor_1: -3604573662933935318
+      TX Village Props-treeRecolor_10: -8474807654202800561
+      TX Village Props-treeRecolor_100: 2297334442757099728
+      TX Village Props-treeRecolor_101: -5729100655675142741
+      TX Village Props-treeRecolor_102: 1534171806195099576
+      TX Village Props-treeRecolor_103: 3616239095702670746
+      TX Village Props-treeRecolor_104: -6260523171391766141
+      TX Village Props-treeRecolor_105: 8555075450034261765
+      TX Village Props-treeRecolor_106: -2088134242567281260
+      TX Village Props-treeRecolor_107: -1216804199908512083
+      TX Village Props-treeRecolor_108: 2975655512166040356
+      TX Village Props-treeRecolor_109: -4657180032852266652
+      TX Village Props-treeRecolor_11: 5150221052463866818
+      TX Village Props-treeRecolor_110: 7290152804703113286
+      TX Village Props-treeRecolor_111: -8619071990831895220
+      TX Village Props-treeRecolor_112: 8272720876664481197
+      TX Village Props-treeRecolor_113: -7506337589401017956
+      TX Village Props-treeRecolor_114: -2333136135755708902
+      TX Village Props-treeRecolor_115: -4867920316192393534
+      TX Village Props-treeRecolor_116: -4849549979066905284
+      TX Village Props-treeRecolor_117: -6410417017403158268
+      TX Village Props-treeRecolor_118: 7498683641431995066
+      TX Village Props-treeRecolor_119: 4769429062961346972
+      TX Village Props-treeRecolor_12: 4115265241707746630
+      TX Village Props-treeRecolor_120: 1108632451371378066
+      TX Village Props-treeRecolor_121: -1515708899317607385
+      TX Village Props-treeRecolor_122: 8781732892807999184
+      TX Village Props-treeRecolor_123: -439362267522363775
+      TX Village Props-treeRecolor_124: -2076525922389034543
+      TX Village Props-treeRecolor_125: -7123474268502088330
+      TX Village Props-treeRecolor_126: -5097680272953790246
+      TX Village Props-treeRecolor_127: 2009891736453470747
+      TX Village Props-treeRecolor_128: 4258983776564374579
+      TX Village Props-treeRecolor_129: -9028894867170504615
+      TX Village Props-treeRecolor_13: -5871075627819827600
+      TX Village Props-treeRecolor_130: 4490387669096021049
+      TX Village Props-treeRecolor_131: -1078552806019394672
+      TX Village Props-treeRecolor_132: 4580170413046531695
+      TX Village Props-treeRecolor_133: 4291501293506907184
+      TX Village Props-treeRecolor_134: 5208449576993855900
+      TX Village Props-treeRecolor_135: -1985621288035541774
+      TX Village Props-treeRecolor_136: -1520285768638220193
+      TX Village Props-treeRecolor_137: 4368185720436082045
+      TX Village Props-treeRecolor_138: -5211136402091771134
+      TX Village Props-treeRecolor_139: -5179104808425816078
+      TX Village Props-treeRecolor_14: -3432251771939685705
+      TX Village Props-treeRecolor_140: 5223589637628151660
+      TX Village Props-treeRecolor_141: -3933999102884197106
+      TX Village Props-treeRecolor_142: 6736519134434805187
+      TX Village Props-treeRecolor_143: 8627650738259749845
+      TX Village Props-treeRecolor_144: 430798522124245090
+      TX Village Props-treeRecolor_145: -4267003366174650594
+      TX Village Props-treeRecolor_146: -3451565633609783248
+      TX Village Props-treeRecolor_147: 5905073115659015795
+      TX Village Props-treeRecolor_148: -5740753008486955686
+      TX Village Props-treeRecolor_149: 944869109974437952
+      TX Village Props-treeRecolor_15: -4272046135479271690
+      TX Village Props-treeRecolor_150: 1936913373734142104
+      TX Village Props-treeRecolor_151: 3583872123608344153
+      TX Village Props-treeRecolor_152: 15020728218223686
+      TX Village Props-treeRecolor_153: -2062477968761279816
+      TX Village Props-treeRecolor_154: 4470359916101659873
+      TX Village Props-treeRecolor_155: -2369413340743299868
+      TX Village Props-treeRecolor_156: -8362974520475587755
+      TX Village Props-treeRecolor_157: -3693541805243091905
+      TX Village Props-treeRecolor_158: -1184951612858274517
+      TX Village Props-treeRecolor_159: 8671491517771752740
+      TX Village Props-treeRecolor_16: -7209231356717495431
+      TX Village Props-treeRecolor_160: 3129517344223061529
+      TX Village Props-treeRecolor_161: -1028068814743023859
+      TX Village Props-treeRecolor_162: 3201307329283528600
+      TX Village Props-treeRecolor_163: -5390472916491981267
+      TX Village Props-treeRecolor_164: 585486109643931823
+      TX Village Props-treeRecolor_165: 7222294384857009909
+      TX Village Props-treeRecolor_166: -1882335888369040229
+      TX Village Props-treeRecolor_167: -7469611784751480317
+      TX Village Props-treeRecolor_168: -9104619631318746454
+      TX Village Props-treeRecolor_169: 1316160869255573440
+      TX Village Props-treeRecolor_17: 2375510945640451792
+      TX Village Props-treeRecolor_170: -6386737999544943266
+      TX Village Props-treeRecolor_171: 8706421420493311315
+      TX Village Props-treeRecolor_172: 8351864956244936063
+      TX Village Props-treeRecolor_173: 5795281928327165125
+      TX Village Props-treeRecolor_174: 3480571695582806161
+      TX Village Props-treeRecolor_175: 901093682270191888
+      TX Village Props-treeRecolor_176: -3557021164394930791
+      TX Village Props-treeRecolor_177: 525849111340997102
+      TX Village Props-treeRecolor_178: -8662120145470605235
+      TX Village Props-treeRecolor_179: 1392947168129302125
+      TX Village Props-treeRecolor_18: 2306744156632251852
+      TX Village Props-treeRecolor_180: 3990172375449537341
+      TX Village Props-treeRecolor_181: 2802427646835167773
+      TX Village Props-treeRecolor_182: -1862480448119912946
+      TX Village Props-treeRecolor_183: 4228199022700225384
+      TX Village Props-treeRecolor_184: 361902506002992229
+      TX Village Props-treeRecolor_185: -7788612218006319991
+      TX Village Props-treeRecolor_186: -2805189595094322023
+      TX Village Props-treeRecolor_187: -154791149216619024
+      TX Village Props-treeRecolor_188: -1944592523768869608
+      TX Village Props-treeRecolor_189: 1809404475
+      TX Village Props-treeRecolor_19: 5864798451168356284
+      TX Village Props-treeRecolor_190: 2142439029
+      TX Village Props-treeRecolor_191: -1975555265
+      TX Village Props-treeRecolor_192: 1365428584
+      TX Village Props-treeRecolor_2: -2919952801635695158
+      TX Village Props-treeRecolor_20: 430334750799015204
+      TX Village Props-treeRecolor_21: -4605883990928792890
+      TX Village Props-treeRecolor_22: 4404567564903096139
+      TX Village Props-treeRecolor_23: 2032868494001297575
+      TX Village Props-treeRecolor_24: -8454957581804906596
+      TX Village Props-treeRecolor_25: 1183510709699855383
+      TX Village Props-treeRecolor_26: -7486329338267495011
+      TX Village Props-treeRecolor_27: 1858511817084842816
+      TX Village Props-treeRecolor_28: 6457675277771002762
+      TX Village Props-treeRecolor_29: -2001349518110471236
+      TX Village Props-treeRecolor_3: 3070904501958107162
+      TX Village Props-treeRecolor_30: -6958680185526191242
+      TX Village Props-treeRecolor_31: 7536791672666785486
+      TX Village Props-treeRecolor_32: -4287094183745812834
+      TX Village Props-treeRecolor_33: -2635241519111328165
+      TX Village Props-treeRecolor_34: 2675426398975778536
+      TX Village Props-treeRecolor_35: -8249355853473523579
+      TX Village Props-treeRecolor_36: -5113483582332595261
+      TX Village Props-treeRecolor_37: -4326846972811895434
+      TX Village Props-treeRecolor_38: 4123188177018008413
+      TX Village Props-treeRecolor_39: -2899066537968874619
+      TX Village Props-treeRecolor_4: 7028047356794601193
+      TX Village Props-treeRecolor_40: 8270691110817669694
+      TX Village Props-treeRecolor_41: 5313940202167197767
+      TX Village Props-treeRecolor_42: -9163937011581974403
+      TX Village Props-treeRecolor_43: 7897254733886951457
+      TX Village Props-treeRecolor_44: 6155915292686832521
+      TX Village Props-treeRecolor_45: 4228679957866232067
+      TX Village Props-treeRecolor_46: 5007692386563788889
+      TX Village Props-treeRecolor_47: -2052177363320333238
+      TX Village Props-treeRecolor_48: 1292012920290112120
+      TX Village Props-treeRecolor_49: 5497519193596063165
+      TX Village Props-treeRecolor_5: -5742515543985531790
+      TX Village Props-treeRecolor_50: 3466158982631884528
+      TX Village Props-treeRecolor_51: 889034242782393007
+      TX Village Props-treeRecolor_52: -8585503276894135074
+      TX Village Props-treeRecolor_53: 8409167878309132633
+      TX Village Props-treeRecolor_54: -5570795232344712785
+      TX Village Props-treeRecolor_55: -4460022782134766947
+      TX Village Props-treeRecolor_56: 2845016077416501253
+      TX Village Props-treeRecolor_57: -7263110594429141308
+      TX Village Props-treeRecolor_58: -1199215543703755606
+      TX Village Props-treeRecolor_59: 6050833454405085530
+      TX Village Props-treeRecolor_6: -3492732595101944042
+      TX Village Props-treeRecolor_60: -2356432657962890417
+      TX Village Props-treeRecolor_61: -4702513637004448424
+      TX Village Props-treeRecolor_62: 8752614786378638329
+      TX Village Props-treeRecolor_63: 3076365752355823952
+      TX Village Props-treeRecolor_64: 3500583123357477429
+      TX Village Props-treeRecolor_65: -2950719205393179408
+      TX Village Props-treeRecolor_66: 416783898057459438
+      TX Village Props-treeRecolor_67: 4922903458964989704
+      TX Village Props-treeRecolor_68: -2106392485702110569
+      TX Village Props-treeRecolor_69: 7162730814061174429
+      TX Village Props-treeRecolor_7: -6743240418010489225
+      TX Village Props-treeRecolor_70: -1755717679614867672
+      TX Village Props-treeRecolor_71: 2104691336597579458
+      TX Village Props-treeRecolor_72: -6058995346022827796
+      TX Village Props-treeRecolor_73: 2666429654158465179
+      TX Village Props-treeRecolor_74: 5245408904270761806
+      TX Village Props-treeRecolor_75: -2237163431359431353
+      TX Village Props-treeRecolor_76: 8076274706712908858
+      TX Village Props-treeRecolor_77: -2671637503813276568
+      TX Village Props-treeRecolor_78: -2387548893671150896
+      TX Village Props-treeRecolor_79: 6558680780187298901
+      TX Village Props-treeRecolor_8: 4132871657002000453
+      TX Village Props-treeRecolor_80: 5908372653959517223
+      TX Village Props-treeRecolor_81: 8258600162573287809
+      TX Village Props-treeRecolor_82: 5291121556813560153
+      TX Village Props-treeRecolor_83: -5831065162643090871
+      TX Village Props-treeRecolor_84: 3920481080334063857
+      TX Village Props-treeRecolor_85: 529884454535125010
+      TX Village Props-treeRecolor_86: -2654329019097656931
+      TX Village Props-treeRecolor_87: 6468313819554774831
+      TX Village Props-treeRecolor_88: 7099604817247433601
+      TX Village Props-treeRecolor_89: 4740025704726109643
+      TX Village Props-treeRecolor_9: -499856674316204077
+      TX Village Props-treeRecolor_90: -8257144963370400984
+      TX Village Props-treeRecolor_91: 8942863466691123042
+      TX Village Props-treeRecolor_92: -950018241427726352
+      TX Village Props-treeRecolor_93: 3908698434835160647
+      TX Village Props-treeRecolor_94: -3739427945938382351
+      TX Village Props-treeRecolor_95: -3738905005020173062
+      TX Village Props-treeRecolor_96: -8293928272433542056
+      TX Village Props-treeRecolor_97: -7919907525385849665
+      TX Village Props-treeRecolor_98: 1866037149868442435
+      TX Village Props-treeRecolor_99: -5195080543272450538
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
