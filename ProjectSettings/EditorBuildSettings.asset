@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Persistance.unity
     guid: f23ea072a91363a488d1c5006d250306
   - enabled: 1
+    path: Assets/Scenes/RoomTown1.unity
+    guid: a9b062906c08dd6498702d987e22b514
+  - enabled: 1
     path: Assets/Scenes/RoomTown.unity
     guid: 07adb7302681007448bdbadbd40ae664
   m_configObjects:

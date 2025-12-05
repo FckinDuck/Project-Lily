@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: b5230d95b8826c841be406c67a4fe837
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8797428241154255019
+    second: slicedRangePirate_0
+  - first:
+      213: 1892979917781921840
+    second: slicedRangePirate_1
+  - first:
+      213: -8588949563954891529
+    second: slicedRangePirate_2
+  - first:
+      213: -5148472874891394059
+    second: slicedRangePirate_3
+  - first:
+      213: 1285538561263758243
+    second: slicedRangePirate_4
+  - first:
+      213: -2708367048518546960
+    second: slicedRangePirate_5
+  - first:
+      213: -884085742297951958
+    second: slicedRangePirate_6
+  - first:
+      213: 2436317002942914097
+    second: slicedRangePirate_7
+  - first:
+      213: -6393892288617252494
+    second: slicedRangePirate_8
+  - first:
+      213: 2439463534695334689
+    second: slicedRangePirate_9
+  - first:
+      213: 4372728604650205554
+    second: slicedRangePirate_10
+  - first:
+      213: 1500868803415423679
+    second: slicedRangePirate_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slicedRangePirate_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 70
+        width: 13
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba82df2ef5eb61a70800000000000000
+      internalID: 8797428241154255019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedRangePirate_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 42
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030f65ea437354a10800000000000000
+      internalID: 1892979917781921840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedRangePirate_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 63
+        width: 8
+        height: 11
+      alignment: 9
+      pivot: {x: 0.46804714, y: 0.25986898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4f8b6b0ebedc880800000000000000
+      internalID: -8588949563954891529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedRangePirate_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 45
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.76982504, y: 0.7556238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f34d54b233fc88b0800000000000000
+      internalID: -5148472874891394059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedRangePirate_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 26
+        width: 12
+        height: 17
+      alignment: 9
+      pivot: {x: 0.6562144, y: 0.755624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab6139a28627d110800000000000000
+      internalID: 1285538561263758243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedRangePirate_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 43
+        width: 12
+        height: 13
+      alignment: 9
+      pivot: {x: 0.2230746, y: 0.75562376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9cda7d482f96ad0800000000000000
+      internalID: -2708367048518546960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedRangePirate_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 28
+        width: 16
+        height: 10
+      alignment: 9
+      pivot: {x: 0.51597655, y: 0.50000036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21d75393b81bb3f0800000000000000
+      internalID: -884085742297951958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedRangePirate_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 26
+        width: 11
+        height: 12
+      alignment: 9
+      pivot: {x: 0.23662983, y: 0.81952983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e18a0f7698fc120800000000000000
+      internalID: 2436317002942914097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedRangePirate_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 6
+        height: 14
+      alignment: 9
+      pivot: {x: 0.6704161, y: 0.8834356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279fbdcf6d45447a0800000000000000
+      internalID: -6393892288617252494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedRangePirate_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1
+        width: 9
+        height: 15
+      alignment: 9
+      pivot: {x: 0.6420133, y: 0.7329015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123c804f827bad120800000000000000
+      internalID: 2439463534695334689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedRangePirate_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2
+        width: 10
+        height: 14
+      alignment: 9
+      pivot: {x: 0.38070908, y: 0.7130199}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2717d5b8f7d0fac30800000000000000
+      internalID: 4372728604650205554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedRangePirate_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2
+        width: 6
+        height: 14
+      alignment: 9
+      pivot: {x: 0.37218794, y: 0.8408318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbaba0a893824d410800000000000000
+      internalID: 1500868803415423679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dfac24b64ae2a744099660dc737aca56
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slicedRangePirate_0: 8797428241154255019
+      slicedRangePirate_1: 1892979917781921840
+      slicedRangePirate_10: 4372728604650205554
+      slicedRangePirate_11: 1500868803415423679
+      slicedRangePirate_2: -8588949563954891529
+      slicedRangePirate_3: -5148472874891394059
+      slicedRangePirate_4: 1285538561263758243
+      slicedRangePirate_5: -2708367048518546960
+      slicedRangePirate_6: -884085742297951958
+      slicedRangePirate_7: 2436317002942914097
+      slicedRangePirate_8: -6393892288617252494
+      slicedRangePirate_9: 2439463534695334689
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

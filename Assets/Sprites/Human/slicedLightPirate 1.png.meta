@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: a01e212ccf089dd47bf52b973adddda6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4304531438408136293
+    second: slicedLightPirate 1_0
+  - first:
+      213: -2948194367649346836
+    second: slicedLightPirate 1_1
+  - first:
+      213: 3991343084979004595
+    second: slicedLightPirate 1_2
+  - first:
+      213: -2881643103501169848
+    second: slicedLightPirate 1_3
+  - first:
+      213: 1824710628514038521
+    second: slicedLightPirate 1_4
+  - first:
+      213: -112358083961925212
+    second: slicedLightPirate 1_5
+  - first:
+      213: -2961237116022730830
+    second: slicedLightPirate 1_6
+  - first:
+      213: 2574869171837842931
+    second: slicedLightPirate 1_7
+  - first:
+      213: 4892438571449429892
+    second: slicedLightPirate 1_8
+  - first:
+      213: 102242418892908658
+    second: slicedLightPirate 1_9
+  - first:
+      213: 4242514958059153849
+    second: slicedLightPirate 1_10
+  - first:
+      213: 3841426408119816493
+    second: slicedLightPirate 1_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slicedLightPirate 1_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 69
+        width: 10
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5055586, y: 0.45831108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56671de6984ccbb30800000000000000
+      internalID: 4304531438408136293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedLightPirate 1_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 63
+        width: 6
+        height: 10
+      alignment: 9
+      pivot: {x: 0.45723662, y: 0.36743546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea0473c7d8e517d0800000000000000
+      internalID: -2948194367649346836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedLightPirate 1_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 54
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0.7755838, y: 0.7565778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4a2e48369146730800000000000000
+      internalID: 3991343084979004595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedLightPirate 1_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 43
+        width: 15
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5114037, y: 0.24342228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bcb5e6dd85208d0800000000000000
+      internalID: -2881643103501169848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedLightPirate 1_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 49
+        width: 10
+        height: 11
+      alignment: 9
+      pivot: {x: 0.18355446, y: 0.81877863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2857e16aca25910800000000000000
+      internalID: 1824710628514038521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedLightPirate 1_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 27
+        width: 8
+        height: 13
+      alignment: 9
+      pivot: {x: 0.8314129, y: 0.888156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a15ecdfae2d07ef0800000000000000
+      internalID: -112358083961925212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedLightPirate 1_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 16
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.66154927, y: 0.7530141}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf43c3488297e6d0800000000000000
+      internalID: -2961237116022730830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedLightPirate 1_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 30
+        width: 16
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5087216, y: 0.690131}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5bf7a9ed5cbb320800000000000000
+      internalID: 2574869171837842931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedLightPirate 1_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 26
+        width: 7
+        height: 10
+      alignment: 9
+      pivot: {x: 0.19194412, y: 0.7837353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fa9a0a5fe65e340800000000000000
+      internalID: 4892438571449429892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedLightPirate 1_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 17
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0.32894856, y: 0.79458934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278a61330fc3b6100800000000000000
+      internalID: 102242418892908658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedLightPirate 1_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 6
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5756626, y: 0.8404827}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9a56560e070ea30800000000000000
+      internalID: 4242514958059153849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicedLightPirate 1_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2
+        width: 6
+        height: 11
+      alignment: 9
+      pivot: {x: 0.34867415, y: 0.8765943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2159c627fc7f4530800000000000000
+      internalID: 3841426408119816493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2969cab504bc8514bab3da99a442dfc5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slicedLightPirate 1_0: 4304531438408136293
+      slicedLightPirate 1_1: -2948194367649346836
+      slicedLightPirate 1_10: 4242514958059153849
+      slicedLightPirate 1_11: 3841426408119816493
+      slicedLightPirate 1_2: 3991343084979004595
+      slicedLightPirate 1_3: -2881643103501169848
+      slicedLightPirate 1_4: 1824710628514038521
+      slicedLightPirate 1_5: -112358083961925212
+      slicedLightPirate 1_6: -2961237116022730830
+      slicedLightPirate 1_7: 2574869171837842931
+      slicedLightPirate 1_8: 4892438571449429892
+      slicedLightPirate 1_9: 102242418892908658
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

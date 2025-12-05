@@ -26,15 +26,15 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 
         //healthBar.UpdateHealthBar(maxHealth, currentHealth);
 
-        if (currentHealth <= 0)
+        if (currentHealth <= 0 && !isDead)
         {
-            if (!isDead)
-                Die();
+            Die();
         }
     }
     public void Die()
     {
         GetComponent<Player>().enabled = false;
+        GetComponent<PlayerAttack>().enabled = false;
         anim.SetTrigger("Dead");
         isDead = true;
     }

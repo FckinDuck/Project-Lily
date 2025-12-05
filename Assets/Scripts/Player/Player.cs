@@ -131,13 +131,13 @@ public class Player : MonoBehaviour
     {
         if (IsFacingRight)
         {
-            Vector3 rotate = new Vector3(0f,180f,transform.position.z);
+            Vector3 rotate = new Vector3(transform.rotation.x,180f,transform.rotation.z);
             transform.rotation = Quaternion.Euler(rotate);
             IsFacingRight = !IsFacingRight;
         }
         else
         {
-            Vector3 rotate = new Vector3(0f, 0f, transform.position.z);
+            Vector3 rotate = new Vector3(transform.rotation.x, 0f, transform.position.z);
             transform.rotation = Quaternion.Euler(rotate);
             IsFacingRight = !IsFacingRight;
         }
@@ -198,6 +198,7 @@ public class Player : MonoBehaviour
         yield return null;
 
         amin.ResetTrigger("land");
+        amin.ResetTrigger("Dead");
     }
 
     #endregion
