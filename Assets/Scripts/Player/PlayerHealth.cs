@@ -33,8 +33,8 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     }
     public void Die()
     {
-        GetComponent<Player>().enabled = false;
-        GetComponent<PlayerAttack>().enabled = false;
+        //GetComponent<Player>().enabled = false;
+        //GetComponent<PlayerAttack>().enabled = false;
         anim.SetTrigger("Dead");
         isDead = true;
     }

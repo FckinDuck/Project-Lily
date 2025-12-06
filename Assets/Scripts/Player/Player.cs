@@ -1,8 +1,5 @@
-using Cainos.LucidEditor;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Scripting.APIUpdating;
 
 public class Player : MonoBehaviour
 {
@@ -13,15 +10,11 @@ public class Player : MonoBehaviour
     [SerializeField] private float jumpStrenght = 5f;
     [SerializeField] private float jumpTime = 0.5f;
 
-    [Header("Direction Check")]
-    [SerializeField] private GameObject rLeg;
-    [SerializeField] private GameObject lLeg;
-
     [Header("Ground check")]
     [SerializeField] private float extraHeight = 0.2f;
     [SerializeField] private LayerMask GroundIs;
 
-    [HideInInspector] private bool IsFacingRight;
+    [HideInInspector] private bool IsFacingRight = true;
 
     private Rigidbody2D rb;
     private Collider2D coll;
@@ -40,7 +33,6 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         amin =GetComponent<Animator>();
         coll = GetComponent<Collider2D>();
-        CheckDirection();
     }
     private void Update()
     {
@@ -51,7 +43,7 @@ public class Player : MonoBehaviour
     private void Move()
     {
         moveInput = UserInputs.instance.MoveInput.x;
-        if (moveInput >0 || moveInput<0)
+        if (moveInput > 0 || moveInput < 0)
         {
             amin.SetBool("IsMove", true);
             TurnCheck();
@@ -116,17 +108,7 @@ public class Player : MonoBehaviour
 
 
     #region turn check
-    private void CheckDirection()
-    {
-        if (rLeg.transform.position.x > lLeg.transform.position.x)
-        {
-            IsFacingRight = true;
-        }
-        else
-        {
-            IsFacingRight = false;
-        }
-    }
+    
     private void Turn()
     {
         if (IsFacingRight)
@@ -137,13 +119,14 @@ public class Player : MonoBehaviour
         }
         else
         {
-            Vector3 rotate = new Vector3(transform.rotation.x, 0f, transform.position.z);
+            Vector3 rotate = new Vector3(transform.rotation.x, 0f, transform.rotation.z);
             transform.rotation = Quaternion.Euler(rotate);
             IsFacingRight = !IsFacingRight;
         }
     }
     private void TurnCheck()
     {
+        //Debug.Log(UserInputs.instance.MoveInput.x);
         if (UserInputs.instance.MoveInput.x > 0 && !IsFacingRight)
         {
             Turn();
