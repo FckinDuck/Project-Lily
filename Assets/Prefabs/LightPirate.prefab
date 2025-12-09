@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4716611894872050594}
   - component: {fileID: 3169023639567875513}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Leftleg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8951444892351575731}
   - component: {fileID: 8644290073218591577}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6433880561636856509}
   - component: {fileID: 2251283162432403580}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -274,7 +274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4327833164182047889}
   - component: {fileID: 8910661763420864922}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LowerBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -363,7 +363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1133325480920889294}
   - component: {fileID: 2917498036996859378}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -450,7 +450,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8811365223116523023}
   - component: {fileID: 8180704752957770295}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -536,11 +536,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1018321946964905559}
+  - component: {fileID: 3900650122001316851}
   - component: {fileID: 7050903770180077519}
   - component: {fileID: 2668711561479816113}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LightPirate
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -555,7 +556,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5618111785794734377}
@@ -563,6 +564,33 @@ Transform:
   - {fileID: 4327833164182047889}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &3900650122001316851
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2244097257355055331}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!61 &7050903770180077519
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -641,7 +669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1037844724811911351}
   - component: {fileID: 8577710665510675370}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UpperBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -730,7 +758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6417361538363972924}
   - component: {fileID: 4845994287934349653}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -817,7 +845,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5618111785794734377}
   - component: {fileID: 6589883065921858969}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -905,7 +933,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6841301257934956165}
   - component: {fileID: 3520858357340485283}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -992,7 +1020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7524151548132429668}
   - component: {fileID: 5403169747103697170}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HeadGear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1079,7 +1107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7062468551174822115}
   - component: {fileID: 4922238975703911375}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}

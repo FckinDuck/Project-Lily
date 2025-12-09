@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneLoadTRIGGGER
       objectReference: {fileID: 0}
+    - target: {fileID: 1081452173724146259, guid: 3d334e6137892c74c97645c762e2ec01, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3731764343967888291, guid: 3d334e6137892c74c97645c762e2ec01, type: 3}
       propertyPath: m_LocalPosition.x
       value: 324.1

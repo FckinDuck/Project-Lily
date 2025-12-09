@@ -18,7 +18,7 @@ public abstract class NPC : MonoBehaviour, IInteractable
     }
     private void Update()
     {
-        if (UserInputs.instance.control.Player.Interact.WasPressedThisFrame() && IsInInteractRange())
+        if (InputManager.interactPressed && IsInInteractRange())
         {
             Interact();
         }

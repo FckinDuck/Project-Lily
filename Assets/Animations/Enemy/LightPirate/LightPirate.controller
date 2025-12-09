@@ -29,7 +29,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Work
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1780518577615703471}
   m_Solo: 0
@@ -55,25 +58,25 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -1774681405445602700}
-    m_Position: {x: -50, y: 220, z: 0}
+    m_Position: {x: -70, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4565223309088256853}
-    m_Position: {x: 230, y: 100, z: 0}
+    m_Position: {x: 180, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7896695469140777508}
-    m_Position: {x: -120, y: 350, z: 0}
+    m_Position: {x: -70, y: 350, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3294209886450220638}
-    m_Position: {x: 340, y: 270, z: 0}
+    m_Position: {x: 400, y: 270, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8071689000330228563}
-    m_Position: {x: 340, y: 350, z: 0}
+    m_Position: {x: 400, y: 350, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4135002118533359378}
-    m_Position: {x: 580, y: 190, z: 0}
+    m_Position: {x: 630, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1780518577615703471}
-    m_Position: {x: 320, y: 430, z: 0}
+    m_Position: {x: 150, y: 350, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -5433240773470117010}
@@ -82,7 +85,7 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 370, y: 190, z: 0}
+  m_AnyStatePosition: {x: 420, y: 190, z: 0}
   m_EntryPosition: {x: -50, y: 90, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
@@ -146,7 +149,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Work
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3294209886450220638}
   m_Solo: 0
@@ -236,7 +242,7 @@ AnimatorState:
   m_Motion: {fileID: 7400000, guid: 39feaca07a047884eb34768101490719, type: 2}
   m_Tag: 
   m_SpeedParameter: 
-  m_MirrorParameter: 
+  m_MirrorParameter: Work
   m_CycleOffsetParameter: 
   m_TimeParameter: 
 --- !u!1102 &-3294209886450220638
@@ -302,6 +308,12 @@ AnimatorController:
   m_Name: LightPirate
   serializedVersion: 5
   m_AnimatorParameters:
+  - m_Name: Work
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
   - m_Name: Die
     m_Type: 9
     m_DefaultFloat: 0
@@ -315,6 +327,12 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: Move
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: HaveWeapon
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0

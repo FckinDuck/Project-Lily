@@ -87,7 +87,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Hited
+    m_ConditionEvent: hited
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2548014952039562037}
@@ -145,22 +145,19 @@ AnimatorStateMachine:
     m_Position: {x: -20, y: -80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1393178300817420263}
-    m_Position: {x: 670, y: -70, z: 0}
+    m_Position: {x: 650, y: -80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1794927120141682701}
-    m_Position: {x: 210, y: -190, z: 0}
+    m_Position: {x: 130, y: -190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7682151492045461049}
     m_Position: {x: 40, y: 50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5596135960418384355}
-    m_Position: {x: 330, y: -260, z: 0}
+    m_Position: {x: 320, y: -260, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2548014952039562037}
     m_Position: {x: 670, y: 60, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 5089440417439959983}
-    m_Position: {x: 70, y: 150, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 9035691650354164137}
@@ -210,13 +207,13 @@ AnimatorController:
   m_Name: Player
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Dead
+  - m_Name: dead
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: Hited
+  - m_Name: hited
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -274,7 +271,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Dead
+    m_ConditionEvent: dead
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5596135960418384355}
@@ -465,32 +462,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1102 &5089440417439959983
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Throw
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 95e036aa632553548a9eab350e985a65, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!1102 &5596247291198563829
 AnimatorState:
   serializedVersion: 6

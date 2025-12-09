@@ -136,6 +136,7 @@ public class Player : MonoBehaviour
             Turn();
         }
     }
+    
     #endregion
 
     #region Ground/Land Check

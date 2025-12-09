@@ -15,7 +15,7 @@ public class TriggerInteractBased : MonoBehaviour, IInteractable
     {
         if (CanInteract)
         {
-            if (UserInputs.instance.control.Player.Interact.WasPressedThisFrame())
+            if (InputManager.interactPressed)
             {
                 Interact();
                 Debug.Log("Interact active");

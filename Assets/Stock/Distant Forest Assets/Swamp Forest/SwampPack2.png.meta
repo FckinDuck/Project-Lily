@@ -50,7 +50,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,667 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SwampPack2_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 576
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438a1c6788c0bba45a631a98aad783ee
+      internalID: -1185190161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 576
+        width: 119
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e57076a592967458d01f78b7530019
+      internalID: -262126281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 384
+        width: 184
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ff7c435b9df704e8e12c758f5f0c5d
+      internalID: -1628111584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 384
+        width: 75
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fe09dea384b724c8e9ee3005d2c72c
+      internalID: 558629222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_4
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 512
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b5ccf8d8e4d1642be0f1f76ea76a28
+      internalID: -53592436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 384
+        width: 81
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa16b916fcf86849be5c5fda6dcae94
+      internalID: -260536841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_6
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 384
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fe713857dab094ba9cb11661ce329d
+      internalID: 1102041442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 282
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889fe7bf27e42184f9ec9c1f628eaf5b
+      internalID: 1788844111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_8
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 282
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0daedf2a969b2149adae5a5bbc331a5
+      internalID: 2100528512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_9
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 281
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ddb624d58537f4696143f469ae0440
+      internalID: -651430246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_10
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 282
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cc4d7c577a75e4cac1f9f582e179d8
+      internalID: -468218603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_11
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 282
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7502db957d96f3d4cb0d84407ac9c2ca
+      internalID: -1119544233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_12
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 281
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6563ece384095a74298f1431f775b057
+      internalID: 1386402147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_13
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 218
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bd929e978cb8a40b4d22cb6041850f
+      internalID: -1826366246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 218
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c6bae14823cda42bb989fa2c2b280e
+      internalID: 1884732406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_15
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 217
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f563bf08997ee48ad970352fea511e
+      internalID: -2118164639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_16
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 218
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5843b758044798b429c24afebe78f740
+      internalID: -1509674760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_17
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 218
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2492590ac8d484b995345f25f8afcc
+      internalID: -2010984538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_18
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 217
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7e9965bbff1e246b4a355bb18156ab
+      internalID: 433033197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_19
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 154
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1122a89988fb13548a33cafa04a88c7b
+      internalID: 447712869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_20
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 154
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89aead9697cc7434fbf5830d809fda6c
+      internalID: 862866242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_21
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 153
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bee4cb81a349ec469ef853458f8812e
+      internalID: -112234497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_22
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 154
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cd5c9073cd5ba4eb4aaa7c609e130b
+      internalID: 1106445755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_23
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 154
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7d05fa70ac52b4c8083df14a7471d9
+      internalID: 1002301694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_24
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 153
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f93524129d87e34eba68304a680ea6c
+      internalID: 2039258451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 76
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6c29a7b77f570438fdedcb3bdeb89e
+      internalID: 1534818301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_26
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 47
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709687d154b4ae748882ef93bc61fd78
+      internalID: 372862973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_27
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 59
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4f72a7b5eb8f541a44ea77b61cb01a
+      internalID: 1422501516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_28
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 103
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfe18800c581284f8645c7094557df9
+      internalID: -1607905330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampPack2_29
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 119
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51a221cc1c96ee4f8da032eb5a649d7
+      internalID: 808320446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -129,7 +789,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SwampPack2_0: -1185190161
+      SwampPack2_1: -262126281
+      SwampPack2_10: -468218603
+      SwampPack2_11: -1119544233
+      SwampPack2_12: 1386402147
+      SwampPack2_13: -1826366246
+      SwampPack2_14: 1884732406
+      SwampPack2_15: -2118164639
+      SwampPack2_16: -1509674760
+      SwampPack2_17: -2010984538
+      SwampPack2_18: 433033197
+      SwampPack2_19: 447712869
+      SwampPack2_2: -1628111584
+      SwampPack2_20: 862866242
+      SwampPack2_21: -112234497
+      SwampPack2_22: 1106445755
+      SwampPack2_23: 1002301694
+      SwampPack2_24: 2039258451
+      SwampPack2_25: 1534818301
+      SwampPack2_26: 372862973
+      SwampPack2_27: 1422501516
+      SwampPack2_28: -1607905330
+      SwampPack2_29: 808320446
+      SwampPack2_3: 558629222
+      SwampPack2_4: -53592436
+      SwampPack2_5: -260536841
+      SwampPack2_6: 1102041442
+      SwampPack2_7: 1788844111
+      SwampPack2_8: 2100528512
+      SwampPack2_9: -651430246
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2160366101520241444}
   - component: {fileID: 6412955108399228764}
   m_Layer: 0
-  m_Name: TX Village Props-treeRecolor_183
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,10 @@ Transform:
   m_LocalPosition: {x: -0.027317047, y: 0.28092158, z: -0.021862466}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5504982314610294184}
+  - {fileID: 8533410692229114941}
+  - {fileID: 4182294058922895153}
   m_Father: {fileID: 5976964330636957320}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &6412955108399228764
@@ -75,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 4228199022700225384, guid: 9f84823a0af1db74fad1372f984e0ca8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -98,7 +101,7 @@ GameObject:
   - component: {fileID: 7057596885789803093}
   - component: {fileID: 472439426303970217}
   m_Layer: 0
-  m_Name: TX Village Props-treeRecolor_181
+  m_Name: DoorFrames
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -185,7 +188,7 @@ GameObject:
   - component: {fileID: 3097638948677861275}
   - component: {fileID: 3954026174743296520}
   m_Layer: 0
-  m_Name: TX Village Props-treeRecolor_182 (1)
+  m_Name: DoorFrames
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -291,9 +294,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2160366101520241444}
-  - {fileID: 5504982314610294184}
-  - {fileID: 8533410692229114941}
-  - {fileID: 4182294058922895153}
   - {fileID: 7057596885789803093}
   - {fileID: 287537116140600110}
   - {fileID: 5007897690510096762}
@@ -311,7 +311,7 @@ GameObject:
   - component: {fileID: 5007897690510096762}
   - component: {fileID: 7314699939808922360}
   m_Layer: 0
-  m_Name: TX Village Props-treeRecolor_182
+  m_Name: DoorFrames
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 5504982314610294184}
   - component: {fileID: 1542285145479580933}
   m_Layer: 0
-  m_Name: TX Village Props-treeRecolor_186
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -412,12 +412,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6366403554849889169}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.051418304, y: 0.8709216, z: -0.021862466}
-  m_LocalScale: {x: 2.493, y: 3, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.1966667, y: 0.008033733, z: 0}
+  m_LocalScale: {x: 0.8309998, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5976964330636957320}
+  m_Father: {fileID: 2160366101520241444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1542285145479580933
 SpriteRenderer:
@@ -485,7 +485,7 @@ GameObject:
   - component: {fileID: 4182294058922895153}
   - component: {fileID: 4263871657528088292}
   m_Layer: 0
-  m_Name: TX Village Props-treeRecolor_176
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -499,12 +499,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6474581699045113090}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.33268166, y: 0.2774477, z: -0.021862466}
-  m_LocalScale: {x: 3, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.0011579695, y: -0.11999958, z: 0}
+  m_LocalScale: {x: 1, y: 0.33333325, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5976964330636957320}
+  m_Father: {fileID: 2160366101520241444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4263871657528088292
 SpriteRenderer:
@@ -572,7 +572,7 @@ GameObject:
   - component: {fileID: 287537116140600110}
   - component: {fileID: 3788333863162045244}
   m_Layer: 0
-  m_Name: TX Village Props-treeRecolor_181 (1)
+  m_Name: DoorFrames
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -659,7 +659,7 @@ GameObject:
   - component: {fileID: 8533410692229114941}
   - component: {fileID: 4529665864583642468}
   m_Layer: 0
-  m_Name: TX Village Props-treeRecolor_186 (1)
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -673,12 +673,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9198939479094971095}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.032318115, y: -0.20807838, z: -0.021862466}
-  m_LocalScale: {x: 2.493, y: 3, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.16300002, y: 0.0016670426, z: 0}
+  m_LocalScale: {x: 0.8309998, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5976964330636957320}
+  m_Father: {fileID: 2160366101520241444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4529665864583642468
 SpriteRenderer:

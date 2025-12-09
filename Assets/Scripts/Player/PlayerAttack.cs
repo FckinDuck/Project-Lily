@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 
 public class PlayerAttack : MonoBehaviour
@@ -22,7 +23,7 @@ public class PlayerAttack : MonoBehaviour
     private List<IDamageable> iDamageables = new List<IDamageable>();
     private List<IDeflectable> iDeflectables = new List<IDeflectable>();
 
-    public bool ShouldBeDamage {  get; private set; }=false;
+    public bool ShouldBeDamage {  get; set; }=false;
 
 
     private void Start()
@@ -35,7 +36,7 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (UserInputs.instance.control.Player.Attack.WasPressedThisFrame() && attackTimeCounter >= attackCooldown)
+        if (InputManager.attackPressed && attackTimeCounter >= attackCooldown)
         {
 
             //Attack();

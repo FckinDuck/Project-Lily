@@ -6,7 +6,7 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] private GameObject pausedPanel;
     void Update()
     {
-        if (UserInputs.instance.control.UI.Cancel.WasPerformedThisFrame())
+        if (InputManager.Pause)
         {
             if (isPaused)
             {
