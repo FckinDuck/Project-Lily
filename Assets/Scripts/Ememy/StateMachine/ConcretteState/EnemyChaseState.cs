@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 public class EnemyChaseState : EnemyState
 {
     private Transform _playerTransform;
-    private float _moveSpeed = 1.7f;
+    private float _moveSpeed = 7f;
     private float _chaseDuration = 30f;
     private float _chaseTimer = 0f;
 
@@ -33,17 +33,30 @@ public class EnemyChaseState : EnemyState
     {
         base.FrameUpdate();
         enemy.Move((Vector2)(((_playerTransform.position - enemy.transform.position).normalized) * _moveSpeed));
-
+        enemy.HandleJump(_moveSpeed);
         if (enemy.IsWithinStrikeDistance)
         {
             enemy.stateMachine.ChangeState(enemy.attackState);
-        }else
+        }
+        else
         {
-            _chaseTimer += Time.deltaTime;
-            if (_chaseTimer >= _chaseDuration)
+            if (!enemy.IsWithinAggroDistance)
             {
-                _chaseTimer = 0f;
-                stateMachine.ChangeState(enemy.idleState);
+                _chaseTimer += Time.deltaTime;
+
+                if (_chaseTimer >= _chaseDuration)
+                {
+                    _chaseTimer = 0f;
+                    stateMachine.ChangeState(enemy.idleState);
+                }
+                Debug.Log("Player outside aggro distance; Chasing the player untill de-aggro");
+
+            }
+            else
+            {
+                _chaseTimer = 0f; // Reset chase timer if player is within aggro distance
+                Debug.Log("Player inside aggro distance; Chasing the player");
+
             }
         }
     }

@@ -6,17 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Persistance.unity
+    guid: f23ea072a91363a488d1c5006d250306
+  - enabled: 1
+    path: Assets/Scenes/StartGame.unity
+    guid: 4df8273cd22da2b488437f0e2d64caf4
+  - enabled: 1
     path: Assets/Scenes/Room1.unity
     guid: f1aa318bf4f34094fb5b1c2072266da4
   - enabled: 1
     path: Assets/Scenes/Room2.unity
     guid: b2e448d13b037f841acb1b2da56451cf
-  - enabled: 1
-    path: Assets/Scenes/StartGame.unity
-    guid: 4df8273cd22da2b488437f0e2d64caf4
-  - enabled: 1
-    path: Assets/Scenes/Persistance.unity
-    guid: f23ea072a91363a488d1c5006d250306
   - enabled: 1
     path: Assets/Scenes/RoomTown1.unity
     guid: a9b062906c08dd6498702d987e22b514

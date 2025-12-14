@@ -57,14 +57,14 @@ public class Player : MonoBehaviour
 
     private void Jump()
     {
-        if(UserInputs.instance.control.Player.Jump.WasPressedThisFrame() && IsGrounded())
+        if(InputManager.jumpPressed && IsGrounded())
         {
             IsJumping = true;
             jumpTimeCounter = jumpTime; 
             rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpStrenght);
             amin.SetTrigger("jump");
         }
-        if (UserInputs.instance.control.Player.Jump.IsPressed())
+        if (InputManager.JumpHeld)
         {
             if(jumpTimeCounter > 0 && IsJumping)
             {
@@ -83,7 +83,7 @@ public class Player : MonoBehaviour
                 IsJumping = false;
             }
         }
-        if(UserInputs.instance.control.Player.Jump.WasReleasedThisFrame())
+        if(InputManager.jumpReleased)
         {
             IsJumping = false;
             IsFalling = true;

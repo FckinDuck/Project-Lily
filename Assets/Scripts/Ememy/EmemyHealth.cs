@@ -1,11 +1,26 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITriggerCheckable
 {
-
+    [Header("Health")]
     [SerializeField] private float maxHealth =3f ;
+
+    [Header("Jump")]
+    [SerializeField] private float jumpForce = 5f;
+    [SerializeField] private float jumpCoolDown = 5f;
+    [SerializeField] private float groundCheckDistance = 0.2f;
+    [SerializeField] private float obstacleCheckDistance = 0.3f;
+    [SerializeField] private LayerMask groundLayer;
+
+    [Header("Particle and Effects")]
     [SerializeField] private ParticleSystem damageParticle;
     [SerializeField] private AudioClip[] damageSoundClip;
+
+    [Header("Collision for checks")]
+    [SerializeField] private Collider2D feetColl;
+    [SerializeField] private Collider2D bodyColl;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
@@ -13,12 +28,16 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
 
     private HealthBar healthBar;
 
+    private float jumpTimer = 0f;
+
     private ParticleSystem damageParticleInstance;
 
 
     public bool HasTakenDamage {  get; set; }
     public Rigidbody2D rb { get; set; }
     public bool IsFacingRight { get; set; } = true;
+    private bool IsGrounded;
+    private bool IsThereObstacle;
 
     #region StateMachine Variables
 
@@ -28,15 +47,21 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
     public EnemyIdleState idleState { get; set; }
     public bool IsAggroed { get ; set; }
     public bool IsWithinStrikeDistance { get; set; }
+    public bool IsWithinAggroDistance { get; set; }
 
     #endregion
 
     #region IdleState Variables
-
-    public float randomMoveRange = 20f;
+    [Header("Idlestate Variable")]
+    public float randomWaitTimeMin = 2f;
+    public float randomWaitTimeMax = 10f;
     public float randomMoveSpeed = 5f;
 
+    // Patrol points
+    public Transform patrolPointA;
+    public Transform patrolPointB;
 
+    public Vector3 currentPatrolTarget;
     #endregion
     private void Awake()
     {
@@ -55,7 +80,10 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
 
     private void Update()
     {
+        
         stateMachine.currentState.FrameUpdate();
+        GroundCheck();
+        ObstacleCheck();
     }
     private void FixedUpdate()
     {
@@ -105,18 +133,34 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
     {
         if (IsFacingRight && velocity.x < 0f)
         {
-            Vector3 rotate = new Vector3(transform.position.x, 180f, transform.position.z);
+            Vector3 rotate = new Vector3(0f, 180f, 0f);
             transform.rotation = Quaternion.Euler(rotate);
             IsFacingRight = !IsFacingRight;
         }
         else if (!IsFacingRight && velocity.x > 0f)
         {
-            Vector3 rotate = new Vector3(transform.position.x, 0f, transform.position.z);
+            Vector3 rotate = new Vector3(0f, 0f, 0f);
             transform.rotation = Quaternion.Euler(rotate);
             IsFacingRight = !IsFacingRight;
         }
     }
 
+    #endregion
+
+    #region jump
+    public void HandleJump(float velocity)
+    {
+        if (jumpTimer < jumpCoolDown)
+        {
+            jumpTimer += Time.deltaTime;
+            return;
+        }
+        if (IsGrounded && IsThereObstacle)
+        {
+            rb.linearVelocity = new Vector2(velocity, jumpForce);
+            jumpTimer = 0f;
+        }
+    }
     #endregion
 
     #region Animation Triggers
@@ -147,5 +191,51 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
     {
         IsWithinStrikeDistance = value;
     }
+
+    public void GroundCheck()
+    {
+        IsGrounded = BoxCastDown(feetColl);
+    }
+
+    public void ObstacleCheck()
+    {
+        IsThereObstacle = BoxCastForward(bodyColl, Vector2.right);
+    }
+    #endregion
+
+    #region Check caster
+    private bool BoxCastForward(Collider2D coll, Vector2 direction)
+    {
+        Vector2 origin = coll.bounds.center;
+        Vector2 size = new Vector2(coll.bounds.size.x * obstacleCheckDistance, coll.bounds.size.y );
+
+        RaycastHit2D hit = Physics2D.BoxCast(
+            origin,
+            size,
+            0f,
+            direction,
+            obstacleCheckDistance,
+            groundLayer
+        );
+
+        return hit.collider != null;
+    }
+    private bool BoxCastDown(Collider2D coll)
+    {
+        Vector2 origin = new Vector2(coll.bounds.center.x, coll.bounds.min.y);
+        Vector2 size = new Vector2(coll.bounds.size.x, groundCheckDistance);
+
+        RaycastHit2D hit = Physics2D.BoxCast(
+            origin,
+            size,
+            0f,
+            Vector2.down,
+            groundCheckDistance,
+            groundLayer
+        );
+
+        return hit.collider != null;
+    }
+
     #endregion
 }

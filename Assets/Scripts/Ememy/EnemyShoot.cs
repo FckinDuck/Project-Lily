@@ -1,5 +1,3 @@
-using System.ComponentModel;
-using System.Net.NetworkInformation;
 using UnityEngine;
 
 public class EnemyShoot : MonoBehaviour
@@ -10,6 +8,8 @@ public class EnemyShoot : MonoBehaviour
 
     private float shootTimer;
     private EnemyProjectile enemyProjectile;
+    private EmemyHealth ememy;
+    private PlayerHealth target;
     private Collider2D coll;
     
 
@@ -18,13 +18,15 @@ public class EnemyShoot : MonoBehaviour
     private void Start()
     {
         coll = GetComponent<Collider2D>();
+        ememy = GetComponent<EmemyHealth>();
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
     }
 
     private void Update()
     {
         shootTimer += Time.deltaTime;
 
-        if (shootTimer >= shootInterval)
+        if (shootTimer >= shootInterval && ememy.IsAggroed && !target.IsDead)
         {
             Shoot();
             shootTimer = 0f;

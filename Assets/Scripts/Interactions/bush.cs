@@ -1,11 +1,12 @@
 using UnityEngine;
 
-public class bush : MonoBehaviour, IDamageable
+public class bush : NPC, IDamageable
 {
     [SerializeField] private float maxHealth = 3f;
     [SerializeField] private ParticleSystem damageParticle;
     [SerializeField] private AudioClip[] damageSoundClip;
-    // Start is called  once before the first execution of Update after the MonoBehaviour is created
+
+    private PlayerStealth Stealth;
 
     private float currentHealth;
 
@@ -17,19 +18,23 @@ public class bush : MonoBehaviour, IDamageable
     void Start()
     {
         currentHealth = maxHealth;
+        Stealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerStealth>();
     }
 
 
     public void Damage(float damageAmount, Vector2 attackDiresction )
     {
         HasTakenDamage = true;
-        currentHealth -= damageAmount;
+        currentHealth -= 1f;
 
         spawnParticle(attackDiresction);
         SoundFXManager.instance.PlayRandomSoundFX(damageSoundClip, transform, 1f);
 
         if (currentHealth <= 0)
         {
+            spawnParticle(attackDiresction);
+            spawnParticle(attackDiresction);
+            spawnParticle(attackDiresction);
             Die();
         }
     }
@@ -45,5 +50,20 @@ public class bush : MonoBehaviour, IDamageable
         damageParticleInstance = Instantiate(damageParticle, transform.position, spawnRotation);
     }
 
-    
+    public override void Interact()
+    {
+        // Debug.Log("Bush interacted");
+        if (Player == null)
+        {
+            Player = GameObject.FindGameObjectWithTag("Player");
+            return;
+        }
+        if (Stealth == null)
+        {
+            Stealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerStealth>();
+            return;
+        }
+
+        Stealth.IsHidden = !Stealth.IsHidden;
+    }
 }

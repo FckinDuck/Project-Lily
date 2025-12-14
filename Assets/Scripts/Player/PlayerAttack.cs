@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,8 +12,12 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private LayerMask attackableTargetLayer;
     [SerializeField] private float damageAmount = 1f;
     [SerializeField] private float attackCooldown = 0.15f;
+    [SerializeField] private float comboCooldown = 0.5f;
 
 
+    private int comboStep = 0;
+    private float lastAttackTime = 0f;
+    private bool canCombo = false;
 
     private RaycastHit2D[] hits;
 
@@ -36,12 +41,34 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (comboStep > 0 && Time.time - lastAttackTime > comboCooldown)
+        {
+            comboStep = 0;
+            canCombo = false;
+        }
+
         if (InputManager.attackPressed && attackTimeCounter >= attackCooldown)
         {
-
-            //Attack();
-            anim.SetTrigger("attack");
-            attackTimeCounter = 0;
+            if (comboStep == 0)
+            {
+                anim.SetTrigger("attack");
+                comboStep = 1;
+                canCombo = true;
+                lastAttackTime = Time.time;
+            }
+            else if (comboStep == 1 && canCombo)
+            {
+                anim.SetTrigger("attack2");
+                comboStep = 2;
+                lastAttackTime = Time.time;
+            }
+            else if (comboStep == 2 && canCombo)
+            {
+                anim.SetTrigger("attack3");
+                comboStep = 0; // Reset combo 
+                canCombo = false;
+            }
+            attackTimeCounter = 0f;
         }
             attackTimeCounter += Time.deltaTime;
     }

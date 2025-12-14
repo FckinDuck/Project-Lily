@@ -23,6 +23,12 @@ public class DialogueController : MonoBehaviour
     private const float MAX_TYPE_TIME = 0.5f;
     public void DisplayNextParagraph(DialogText dialogText)
     {
+        if (isTyping)
+        {
+            SkipTyping();
+            return;
+        }
+
         if (paragraph.Count == 0)
         {
             if (!convoEnded)
@@ -43,12 +49,14 @@ public class DialogueController : MonoBehaviour
 
             typeDialogCoroutine = StartCoroutine(TypeDialogueText(p));
         }
+
         //NPCDialogueText.text = p;
         if (paragraph.Count ==0)
         {
             convoEnded = true;
         }
     }
+
     private void StartConvo(DialogText dialogText)
     {
         if (!gameObject.activeSelf)
@@ -62,6 +70,7 @@ public class DialogueController : MonoBehaviour
             paragraph.Enqueue(dialogText.paragraphs[i]);
         }
     }
+
     private void EndConvo()
     {
         paragraph.Clear(); 
@@ -71,6 +80,7 @@ public class DialogueController : MonoBehaviour
             gameObject.SetActive (false);
         }
     }
+
     private IEnumerator TypeDialogueText(string p)
     {
         isTyping = true;
@@ -96,4 +106,15 @@ public class DialogueController : MonoBehaviour
         isTyping = false;
 
     }
+
+    private void SkipTyping()
+    {
+        if (isTyping)
+        {
+            StopCoroutine(typeDialogCoroutine);
+            NPCDialogueText.text = p;           
+            isTyping = false;
+        }
+    }
+
 }
