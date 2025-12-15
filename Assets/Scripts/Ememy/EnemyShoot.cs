@@ -5,21 +5,22 @@ public class EnemyShoot : MonoBehaviour
     [SerializeField] private Rigidbody2D bulletPrefab;
     [SerializeField] private float bulletSpeed = 20f;
     [SerializeField] private float shootInterval = 2f;
+    [SerializeField] private string shootAnimationTrigger;
 
     private float shootTimer;
     private EnemyProjectile enemyProjectile;
     private EmemyHealth ememy;
     private PlayerHealth target;
     private Collider2D coll;
-    
-
     private Rigidbody2D bulletRb;
+    private Animator animator;
 
     private void Start()
     {
         coll = GetComponent<Collider2D>();
         ememy = GetComponent<EmemyHealth>();
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -34,6 +35,13 @@ public class EnemyShoot : MonoBehaviour
     }
     private void Shoot()
     {
+        
+        // Trigger animation 
+        if (!string.IsNullOrEmpty(shootAnimationTrigger) && animator != null)
+        {
+            animator.SetTrigger(shootAnimationTrigger);
+        }
+
         //spawn projectile
         bulletRb = Instantiate(bulletPrefab, transform.position, transform.rotation);
 

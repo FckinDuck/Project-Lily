@@ -23,8 +23,8 @@ public class PauseMenu : MonoBehaviour
         isPaused = true;
         pausedPanel.SetActive(true);
         Time.timeScale = 0f;
-        
-        UserInputs.instance.control.Player.Disable();
+
+        InputManager.PlayerInput.enabled = false;
     }
 
     public void Resume()
@@ -33,6 +33,6 @@ public class PauseMenu : MonoBehaviour
         pausedPanel.SetActive(false);
         Time.timeScale = 1f;
 
-        UserInputs.instance.control.Player.Enable();
+        InputManager.PlayerInput.enabled = true;    
     }
 }

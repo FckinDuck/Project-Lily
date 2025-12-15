@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,12 +17,17 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 
     [SerializeField] private Behaviour[] components;
     [SerializeField] private AudioClip[] damageSoundClip;
+    [SerializeField] public AudioClip[] footSoundClip;
+
+    
 
     private ParticleSystem damageParticleInstance;
     public bool HasTakenDamage { get; set ; }
-    public bool IsDead => currentHealth <= 0f;
+    public bool IsDead;
 
+    private Rigidbody2D rb;
     private float currentHealth;
+    
     private float takeHitTimer = 0f;
 
     private Animator anim;
@@ -29,6 +35,9 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     {
         currentHealth = startMaxHealth;
         anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+
+
         // Scale factor based on maxHealth
         float scale = Mathf.Clamp(startMaxHealth / 10f, 1f, 3f);
 
@@ -39,8 +48,8 @@ public class PlayerHealth : MonoBehaviour, IDamageable
             if (barRect != null)
             {
                 Vector2 size = barRect.sizeDelta;
-                size.x = scale; // Set width directly to the clamped scale
-                barRect.sizeDelta = size;
+                size.x = scale;
+                //barRect.sizeDelta = size;
             }
         }
 
@@ -51,18 +60,17 @@ public class PlayerHealth : MonoBehaviour, IDamageable
             if (canisterRect != null)
             {
                 Vector2 size = canisterRect.sizeDelta;
-                size.x = scale; // Set width directly to the clamped scale
-                canisterRect.sizeDelta = size;
+                size.x = scale;
+                //canisterRect.sizeDelta = size;
             }
         }
+        
+        
     }
     private void FixedUpdate()
     {
         takeHitTimer+= Time.fixedDeltaTime;
-        if (currentHealth> capMaxHealth)
-        {
-            currentHealth = capMaxHealth;
-        }
+        
     }
     public void Damage(float damageAmount, Vector2 attackDirection)
     {
@@ -70,15 +78,14 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         { 
             HasTakenDamage = true;
             currentHealth -= damageAmount;
-            spawnParticle(attackDirection);
+            SpawnParticle(attackDirection);
             anim.SetTrigger("Hited");
             SoundFXManager.instance.PlayRandomSoundFX(damageSoundClip, transform, 1f);
 
             healthBar.UpdateHealthBar(startMaxHealth, currentHealth);
             takeHitTimer = 0f;
-
+            StartCoroutine(ResetHasTakenDamage(InvincibilityTimeAfterHit));
         }
-
         if (currentHealth <= 0)
         {
             Die();
@@ -87,15 +94,50 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     public void Die()
     {
         anim.SetTrigger("Dead");
+        
         foreach (Behaviour item in components)
         {
             item.enabled = false;
         }
+        rb.linearVelocity = Vector2.zero;
+
+        IsDead = true;
     }
 
-    private void spawnParticle(Vector2 attackDiresction)
+    private void SpawnParticle(Vector2 attackDiresction)
     {
         Quaternion spawnRotation = Quaternion.FromToRotation(Vector2.right, attackDiresction);
         damageParticleInstance = Instantiate(damageParticle, transform.position, spawnRotation);
+    }
+    /*
+    public void Heal(float healAmount)
+    {
+        currentHealth += healAmount;
+        if (currentHealth > startMaxHealth)
+        {
+            currentHealth = startMaxHealth;
+        }
+        healthBar.UpdateHealthBar(startMaxHealth, currentHealth);
+    }
+    */
+
+    private IEnumerator ResetHasTakenDamage(float time)
+    {
+        yield return new WaitForSeconds(time);
+        HasTakenDamage = false;
+    }
+    
+    public void ResetHealth()
+    {
+        currentHealth = startMaxHealth;
+        healthBar.UpdateHealthBar(startMaxHealth, currentHealth);
+        foreach (Behaviour item in components)
+        {
+            item.enabled = true;
+        }
+        //anim.Rebind();
+        IsDead = false;
+        anim.ResetTrigger("Dead");
+        //anim.Play("Idle");
     }
 }

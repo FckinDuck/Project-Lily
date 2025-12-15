@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Cinemachine;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 
 public class PlayerAttack : MonoBehaviour
@@ -123,6 +121,7 @@ public class PlayerAttack : MonoBehaviour
     */
     private void ReturnAttackableToDamageableAndDeflectable()
     {
+        
         foreach(IDamageable thingThatWasDamage in iDamageables)
         {
             thingThatWasDamage.HasTakenDamage =false;

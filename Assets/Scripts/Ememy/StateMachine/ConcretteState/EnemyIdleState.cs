@@ -48,7 +48,7 @@ public class EnemyIdleState : EnemyState
         if (_isWaiting)
         {
             _waitTimer += Time.deltaTime;
-            Debug.Log("Wait for "+_waitDuration+" seconds before continue patrol");
+            Debug.Log("Wait for " + _waitDuration + " seconds before continue patrol");
             if (_waitTimer >= _waitDuration)
             {
                 _isWaiting = false;
@@ -56,39 +56,34 @@ public class EnemyIdleState : EnemyState
             else
             {
                 enemy.Move(Vector2.zero);
+                // Trigger Idle animation while waiting
+                enemy.AnimationTrigger(EmemyHealth.AnimationTriggersType.Idle);
                 return;
             }
         }
 
-        /*
-        _dirction = (_targetPos - enemy.transform.position).normalized;
-
-        enemy.Move(_dirction * enemy.randomMoveSpeed);
-        if ((enemy.transform.position - _targetPos).sqrMagnitude <0.01f)
-        {
-            _targetPos = GetRandomPoint();
-        }
-        */
         _dirction = (_targetPos - enemy.transform.position).normalized;
         enemy.Move(_dirction * enemy.randomMoveSpeed);
         enemy.HandleJump(enemy.randomMoveSpeed);
 
-       if (enemy.patrolPointA!= null)
+        // Trigger Move animation when moving
+        AnimationTrigger(EmemyHealth.AnimationTriggersType.Move);
+
+        if (enemy.patrolPointA != null)
+        {
             if ((enemy.transform.position - _targetPos).sqrMagnitude < 1f)
             {
-
                 _isWaiting = true;
                 _waitTimer = 0f;
                 _waitDuration = Random.Range(enemy.randomWaitTimeMin, enemy.randomWaitTimeMax);
-
 
                 _targetPos = (_targetPos == enemy.patrolPointA.position)
                     ? enemy.patrolPointB.position
                     : enemy.patrolPointA.position;
 
                 Debug.Log("patrol target change");
-            
             }
+        }
     }
 
     public override void PhysicsUpdate()

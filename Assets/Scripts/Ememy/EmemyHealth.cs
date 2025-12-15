@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -16,6 +17,8 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
     [Header("Particle and Effects")]
     [SerializeField] private ParticleSystem damageParticle;
     [SerializeField] private AudioClip[] damageSoundClip;
+    [SerializeField] private AudioClip[] footSoundClips;
+    [SerializeField] private float footStepSoundInterval = 5f;
 
     [Header("Collision for checks")]
     [SerializeField] private Collider2D feetColl;
@@ -25,6 +28,8 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     private float currentHealth;
+
+    private Animator anim;
 
     private HealthBar healthBar;
 
@@ -38,6 +43,7 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
     public bool IsFacingRight { get; set; } = true;
     private bool IsGrounded;
     private bool IsThereObstacle;
+    private float soundfxPlayTimer =0f;
 
     #region StateMachine Variables
 
@@ -76,6 +82,7 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
         healthBar = GetComponentInChildren<HealthBar>();
         rb = GetComponent<Rigidbody2D>();
         stateMachine.Initialize(idleState);
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
@@ -84,6 +91,7 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
         stateMachine.currentState.FrameUpdate();
         GroundCheck();
         ObstacleCheck();
+        soundfxPlayTimer += Time.deltaTime;
     }
     private void FixedUpdate()
     {
@@ -95,16 +103,27 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
     {
         HasTakenDamage = true;
         currentHealth -= damageAmount;
+        anim.SetTrigger("hit");
         spawnParticle(attackDiresction);
 
         SoundFXManager.instance.PlayRandomSoundFX(damageSoundClip, transform, 1f);
 
         healthBar.UpdateHealthBar(maxHealth,currentHealth);
 
+        StartCoroutine(ResetHasTakenDamage(1f));
+
         if (currentHealth <= 0)
         {
+            anim.SetTrigger("dead");
             Die();
         }
+    }
+
+    // Add this coroutine to your EmemyHealth class
+    private IEnumerator ResetHasTakenDamage(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        HasTakenDamage = false;
     }
 
     public void Die()
@@ -127,19 +146,22 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
     {
         CheckLeftOrRightFacing(velocity);
         rb.linearVelocity = velocity;
+        //anim.SetBool("Move", true);
+        FootstepSound();
+        //SoundFXManager.instance.PlayRandomSoundFX(footSoundClip, transform, 0.75f);
     }
 
     public void CheckLeftOrRightFacing(Vector2 velocity)
     {
         if (IsFacingRight && velocity.x < 0f)
         {
-            Vector3 rotate = new Vector3(0f, 180f, 0f);
+            Vector3 rotate = new(0f, 180f, 0f);
             transform.rotation = Quaternion.Euler(rotate);
             IsFacingRight = !IsFacingRight;
         }
         else if (!IsFacingRight && velocity.x > 0f)
         {
-            Vector3 rotate = new Vector3(0f, 0f, 0f);
+            Vector3 rotate = new(0f, 0f, 0f);
             transform.rotation = Quaternion.Euler(rotate);
             IsFacingRight = !IsFacingRight;
         }
@@ -165,10 +187,26 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
 
     #region Animation Triggers
 
-    private void AnimationTrigger(AnimationTriggersType triggersType)
+    public void AnimationTrigger(AnimationTriggersType triggersType)
     {
-        // Implement animation trigger handling here
-        stateMachine.currentState.AnimationTrigger(triggersType);
+        switch (triggersType)
+        {
+            case AnimationTriggersType.TakeDamage:
+                anim.SetTrigger("hit");
+                break;
+
+            case AnimationTriggersType.Die:
+                anim.SetTrigger("dead");
+                break;
+
+            case AnimationTriggersType.Move:
+                anim.SetBool("Move", true);
+                break;
+
+            case AnimationTriggersType.Idle:
+                anim.SetBool("Move", false);
+                break;
+        }
     }
 
 
@@ -177,7 +215,9 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
         TakeDamage,
         PlayFootStepSound,
         PlayAttackSound,
-        Die
+        Die,
+        Move,
+        Idle
     }
     #endregion
 
@@ -201,13 +241,33 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
     {
         IsThereObstacle = BoxCastForward(bodyColl, Vector2.right);
     }
+
+    public void FootstepSound()
+    {
+        StartCoroutine(FootstepSoundCoroutine());
+
+    }
+    private IEnumerator FootstepSoundCoroutine()
+    {
+        if (soundfxPlayTimer > footStepSoundInterval)
+        {
+            //float randomVolume = Random.Range(0.4f, 0.6f);
+            SoundFXManager.instance.PlayRandomSoundFX(footSoundClips, transform, 0.5f);
+            soundfxPlayTimer = 0f;
+        }
+        else
+        {
+            soundfxPlayTimer += Time.deltaTime;
+            yield return null;
+        }
+    }
     #endregion
 
     #region Check caster
     private bool BoxCastForward(Collider2D coll, Vector2 direction)
     {
         Vector2 origin = coll.bounds.center;
-        Vector2 size = new Vector2(coll.bounds.size.x * obstacleCheckDistance, coll.bounds.size.y );
+        Vector2 size = new(coll.bounds.size.x * obstacleCheckDistance, coll.bounds.size.y );
 
         RaycastHit2D hit = Physics2D.BoxCast(
             origin,
@@ -222,8 +282,8 @@ public class EmemyHealth : MonoBehaviour, IDamageable, IEmnemyMoveable, ITrigger
     }
     private bool BoxCastDown(Collider2D coll)
     {
-        Vector2 origin = new Vector2(coll.bounds.center.x, coll.bounds.min.y);
-        Vector2 size = new Vector2(coll.bounds.size.x, groundCheckDistance);
+        Vector2 origin = new(coll.bounds.center.x, coll.bounds.min.y);
+        Vector2 size = new(coll.bounds.size.x, groundCheckDistance);
 
         RaycastHit2D hit = Physics2D.BoxCast(
             origin,

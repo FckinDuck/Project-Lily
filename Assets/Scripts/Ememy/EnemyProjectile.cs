@@ -49,7 +49,6 @@ public class EnemyProjectile : MonoBehaviour, IDeflectable
 
             
             coll.enabled = false;
-
            
             rb.linearVelocity = Vector2.zero;
             rb.bodyType = RigidbodyType2D.Kinematic;

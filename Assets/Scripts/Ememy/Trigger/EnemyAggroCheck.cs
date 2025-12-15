@@ -6,7 +6,7 @@ public class EnemyAggroCheck : MonoBehaviour
 
     [Header("Raycast Settings")]
     [SerializeField] private LayerMask obstacleLayer;
-    [SerializeField] private float rayDistance = 20f;
+    //[SerializeField] private float rayDistance = 20f;
 
     private EmemyHealth _enemy;
     private Collider2D _playerCollider;

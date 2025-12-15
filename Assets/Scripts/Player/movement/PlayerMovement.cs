@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEditor.ShaderGraph;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -42,7 +43,11 @@ public class PlayerMovement : MonoBehaviour
     // coyote time vars
     private float _coyoteTimer;
 
+    private PlayerHealth health;
 
+    // footstep sound vars
+    private float footStepSoundInterval = 1f;
+    private float soundfxPlayTimer = 0f;
 
     private void Awake()
     {
@@ -50,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
 
         _rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        health = GetComponent<PlayerHealth>();
     }
 
     private void Update()
@@ -107,6 +113,7 @@ public class PlayerMovement : MonoBehaviour
             }
             _moveVelocity = Vector2.Lerp(_moveVelocity, targetVelocity, acceleration * Time.fixedDeltaTime);
             _rb.linearVelocity = new Vector2(_moveVelocity.x, _rb.linearVelocity.y);
+            FootstepSound();
         }
         else if (moveInput == Vector2.zero)
         {
@@ -211,6 +218,25 @@ public class PlayerMovement : MonoBehaviour
         anim.SetTrigger("jump");
     }
 
+    public void FootstepSound()
+    {
+        StartCoroutine(FootstepSoundCoroutine());
+
+    }
+    private IEnumerator FootstepSoundCoroutine()
+    {
+        if (soundfxPlayTimer > footStepSoundInterval)
+        {
+            //float randomVolume = Random.Range(0.4f, 0.6f);
+            SoundFXManager.instance.PlayRandomSoundFX(health.footSoundClip, transform, 0.5f);
+            soundfxPlayTimer = 0f;
+        }
+        else
+        {
+            soundfxPlayTimer += Time.deltaTime;
+            yield return null;
+        }
+    }
     private void Jump()
     {
         //grav for jump

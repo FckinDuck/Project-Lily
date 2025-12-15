@@ -14,15 +14,18 @@ public class EnemyAttackData
     public float attackRange = 1.5f;
     public float damage = 1f;
 
-    [Header("Distance Condition")]
-    public float minDistance;
-    public float maxDistance;
+    [Header("Range Trigger")]
+    public AttackRangeTrigger rangeTrigger;
 
     [Header("Cooldown")]
     public float cooldown;
 
     [HideInInspector] public float lastUsedTime;
+
+    public bool CanUseAttack =>
+        rangeTrigger != null && rangeTrigger.IsTargetInside;
 }
+
 
 public class EnemyAttack : MonoBehaviour
 {
@@ -37,6 +40,7 @@ public class EnemyAttack : MonoBehaviour
     private Animator anim;
     private EnemyAttackData currentAttack;
     private bool shouldBeDamage;
+    public bool IsAttacking;
 
     private readonly List<IDamageable> damaged = new();
 
@@ -49,21 +53,21 @@ public class EnemyAttack : MonoBehaviour
 
     public bool CanCheckAttack()
     {
-        return Time.time >= lastCheckTime + checkAttackCooldown;
+        return Time.deltaTime >= lastCheckTime + checkAttackCooldown;
     }
 
-    public EnemyAttackData GetValidAttack(float distance)
+    public EnemyAttackData GetValidAttack()
     {
-        lastCheckTime = Time.time;
+        lastCheckTime = Time.deltaTime;
 
         List<EnemyAttackData> valid = new();
 
         foreach (var atk in attacks)
         {
-            if (distance < atk.minDistance || distance > atk.maxDistance)
+            if (!atk.CanUseAttack)
                 continue;
 
-            if (Time.time < atk.lastUsedTime + atk.cooldown)
+            if (Time.deltaTime < atk.lastUsedTime + atk.cooldown)
                 continue;
 
             valid.Add(atk);
@@ -75,17 +79,17 @@ public class EnemyAttack : MonoBehaviour
         return valid[Random.Range(0, valid.Count)];
     }
 
+
     public void ExecuteAttack(EnemyAttackData attack)
     {
         if (attack == null) return;
 
         currentAttack = attack;
+        IsAttacking = true;
         attack.lastUsedTime = Time.time;
         if (anim != null && !string.IsNullOrEmpty(attack.animationTrigger))
             anim.SetTrigger(attack.animationTrigger);
     }
-
-    public bool IsAttacking => currentAttack != null;
 
     #endregion
 
@@ -140,6 +144,7 @@ public class EnemyAttack : MonoBehaviour
             d.HasTakenDamage = false;
 
         damaged.Clear();
+        IsAttacking = false;
     }
 
     #endregion
